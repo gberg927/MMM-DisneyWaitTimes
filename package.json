@@ -1,11 +1,12 @@
 {
-  "name": "twitControl",
+  "name": "disneyWaitTimes",
   "version": "1.0.0",
-  "description": " Twitter Interface module for MagicMirror2",
-  "main": "twitControl.js",
-  "author": "Blastitt",
+  "description": " Disney Wait Times module for MagicMirror2",
+  "main": "disneyWaitTimes.js",
+  "author": "Dennis Glasberg",
   "license": "MIT",
   "dependencies": {
-    "user-stream": "latest"
+    "themeparks": "latest",
+	"babel-polyfill": "latest"
   }
 }

@@ -1,0 +1,11 @@
+.time {
+    text-align: right;
+}
+
+.parkTime {
+    float: right;
+}
+
+.row {
+	border-bottom: thin dotted white;
+}

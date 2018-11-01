@@ -1,5 +1,5 @@
 {
-  "name": "disneyWaitTimes",
+  "name": "MMM-DisneyWaitTimes",
   "version": "1.0.0",
   "description": " Disney Wait Times module for MagicMirror2",
   "main": "disneyWaitTimes.js",

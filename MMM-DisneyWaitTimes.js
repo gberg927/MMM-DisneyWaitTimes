@@ -1,4 +1,4 @@
-Module.register("disneyWaitTimes",{
+Module.register("MMM-DisneyWaitTimes",{
 
 	defaults: {
 		updateInterval: 10 * 60 * 1000

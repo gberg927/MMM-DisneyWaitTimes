@@ -27,7 +27,7 @@ The `feeds` property contains an array with multiple objects. These objects have
 Here is an example of an entry in `config.js`
 ```
 {
-    module: "disneyWaitTimes",
+    module: "MMM-DisneyWaitTimes",
     header: "Magic Kingdom",
     position: "top_left",
     config: {

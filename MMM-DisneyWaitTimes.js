@@ -93,10 +93,13 @@ Module.register("MMM-DisneyWaitTimes",{
 			})
 			
 			self.rides = payload.waitTimes;
-			self.openingTime = payload.openingTime;
-			self.closingTime = payload.closingTime;
 			self.updateDom();
-		}
+        }
+        else if (notification === "POPULATE_OPENING_TIMES_" + this.config.park.name.replace(/ /g,"_")) {
+            self.openingTime = payload.openingTime;
+            self.closingTime = payload.closingTime;
+            self.updateDom();
+        }
 	},
 
 	processWaitTimes: function() {

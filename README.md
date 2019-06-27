@@ -1,6 +1,8 @@
 # MMM-DisneyWaitTimes
 Disney World Wait Times for Magic Mirror
 
+![alt text](https://github.com/gberg927/MMM-DisneyWaitTimes/blob/master/wait-times-demo.png)
+
 ## Dependencies
   * An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
   * The [Themeparks API](https://github.com/cubehouse/themeparks)

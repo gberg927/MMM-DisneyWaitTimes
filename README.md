@@ -9,7 +9,7 @@ Disney World Wait Times for Magic Mirror
   
 ## Installation
 ```javascript
-cd ~/MagicMirror/modules
+cd modules/
 git clone git@github.com:gberg927/MMM-DisneyWaitTimes.git
 cd MMM-DisneyWaitTimes
 npm install

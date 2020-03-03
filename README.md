@@ -8,9 +8,13 @@ Disney World Wait Times for Magic Mirror
   * The [Themeparks API](https://github.com/cubehouse/themeparks)
   
 ## Installation
- 1. Clone this repo into your `modules` directory.
- 2. Execute `npm install` in this module's directory.
- 3. Configure your `config.js` file.
+```javascript
+cd ~/MagicMirror/modules
+git clone git@github.com:gberg927/MMM-DisneyWaitTimes.git
+cd MMM-DisneyWaitTimes
+npm install
+```
+  *  Add module to ~MagicMirror/config/config.js
  
 ## Config
 | **Option** | **Description** |

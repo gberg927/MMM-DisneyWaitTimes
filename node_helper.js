@@ -3,9 +3,11 @@ const NodeHelper = require("node_helper");
 const Themeparks = require("themeparks");
 
 const DisneyWorldMagicKingdom = new Themeparks.Parks.WaltDisneyWorldMagicKingdom();
-const DisneyWorldEpcot = new Themeparks.Parks.WaltDisneyWorldEpcot;
-const DisneyWorldHollywoodStudios = new Themeparks.Parks.WaltDisneyWorldHollywoodStudios;
-const DisneyWorldAnimalKingdom = new Themeparks.Parks.WaltDisneyWorldAnimalKingdom;
+const DisneyWorldEpcot = new Themeparks.Parks.WaltDisneyWorldEpcot();
+const DisneyWorldHollywoodStudios = new Themeparks.Parks.WaltDisneyWorldHollywoodStudios();
+const DisneyWorldAnimalKingdom = new Themeparks.Parks.WaltDisneyWorldAnimalKingdom();
+const DisneyWorldParisMagicKingdom = new Themeparks.Parks.DisneylandParisMagicKingdom();
+const DisneyWorldParisWaltDisneyStudios = new Themeparks.Parks.DisneylandParisWaltDisneyStudios();
 
 module.exports = NodeHelper.create({
 	start: function() {
@@ -68,7 +70,7 @@ module.exports = NodeHelper.create({
 			});
 		};
 
-		switch(park.name) {
+		switch (park.name) {
 		case "Magic Kingdom":
 			CheckOpeningTimes(DisneyWorldMagicKingdom);
 			CheckWaitTimes(DisneyWorldMagicKingdom);
@@ -84,6 +86,14 @@ module.exports = NodeHelper.create({
 		case "Animal Kingdom":
 			CheckOpeningTimes(DisneyWorldAnimalKingdom);
 			CheckWaitTimes(DisneyWorldAnimalKingdom);
+			break;
+		case "Magic Kingdom - Disneyland Paris":
+			CheckOpeningTimes(DisneyWorldParisMagicKingdom);
+			CheckWaitTimes(DisneyWorldParisMagicKingdom);
+			break;
+		case "Walt Disney Studios - Disneyland Paris":
+			CheckOpeningTimes(DisneyWorldParisWaltDisneyStudios);
+			CheckWaitTimes(DisneyWorldParisWaltDisneyStudios);
 			break;
 		}
 	},

@@ -5,8 +5,14 @@
   "main": "disneyWaitTimes.js",
   "author": "Dennis Glasberg",
   "license": "MIT",
+  "scripts": {
+    "rebuild": "electron-rebuild"
+  },
   "dependencies": {
     "themeparks": "latest",
     "babel-polyfill": "latest"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.10.0"
   }
 }

@@ -18,6 +18,7 @@ cd ~MagicMirror/modules/
 git clone git@github.com:gberg927/MMM-DisneyWaitTimes.git
 cd MMM-DisneyWaitTimes
 npm install
+npm run rebuild
 ```
 
 2. Add module to ~MagicMirror/config/config.js

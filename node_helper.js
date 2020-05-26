@@ -20,6 +20,8 @@ module.exports = NodeHelper.create({
 
 		const CheckOpeningTimes = (disneyPark) => {
 			disneyPark.GetOpeningTimes().then((times) => {
+				var openingTime;
+				var closingTime;
 				for(var i=0, time; time=times[i++];) {
 					if (time.type == "Operating") {
 						if (new Date() >= new Date(time.openingTime) && new Date() <= new Date(time.closingTime)) {
@@ -34,8 +36,8 @@ module.exports = NodeHelper.create({
 				}
 
 				var payload = {
-					openingTime: openingTime,
-					closingTime: closingTime,
+					openingTime: openingTime || null,
+					closingTime: closingTime || null,
 				};
 
 				self.sendSocketNotification("POPULATE_OPENING_TIMES_" + park.name.replace(/ /g,"_"), payload);

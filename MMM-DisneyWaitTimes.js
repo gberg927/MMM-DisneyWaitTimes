@@ -22,7 +22,10 @@ Module.register("MMM-DisneyWaitTimes",{
 		timeSpan.className = "parkTime";
 
 		if (self.openingTime != null && self.closingTime != null) {
-			timeSpan.innerHTML = self.formatTime(self.openingTime) + " - " + self.formatTime(self.closingTime);
+			timeSpan.innerHTML = " " + self.formatTime(self.openingTime) + " - " + self.formatTime(self.closingTime);
+		}
+		else {
+			timeSpan.innerHTML = " CLOSED";
 		}
 
 		headerDiv.appendChild(timeSpan);

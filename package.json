@@ -9,12 +9,12 @@
     "rebuild": "electron-rebuild"
   },
   "dependencies": {
-    "babel-polyfill": "latest",
-    "core-js": "latest",
-    "socks": "latest",
-    "themeparks": "latest"
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "socks": "^2.3.3",
+    "themeparks": "^5.1.37"
   },
   "devDependencies": {
-    "electron-rebuild": "latest"
+    "electron-rebuild": "^1.11.0"
   }
 }

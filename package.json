@@ -12,7 +12,7 @@
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.6.5",
     "socks": "^2.3.3",
-    "themeparks": "^5.1.37"
+    "themeparks": "github:cubehouse/themeparks#6prev"
   },
   "devDependencies": {
     "electron-rebuild": "^1.11.0"

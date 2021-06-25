@@ -15,6 +15,6 @@
     "themeparks": "^5.1.47"
   },
   "devDependencies": {
-    "electron-rebuild": "^1.11.0"
+    "electron-rebuild": "^2.3.5"
   }
 }

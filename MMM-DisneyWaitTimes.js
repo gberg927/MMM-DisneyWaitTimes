@@ -1,122 +1,107 @@
-Module.register("MMM-DisneyWaitTimes",{
+Module.register("MMM-DisneyWaitTimes", {
+  defaults: {
+    updateInterval: 10 * 60 * 1000
+  },
 
-	defaults: {
-		updateInterval: 10 * 60 * 1000
-	},
+  getScripts: function () {
+    return ["moment.js"];
+  },
 
-	getScripts: function() {
-		return ["moment.js"];
-	},
+  getStyles: function () {
+    return ["disney.css"];
+  },
 
-	getStyles: function () {
-		return ["disney.css"];
-	},
+  getHeader: function () {
+    var headerDiv = document.createElement("div");
+    headerDiv.innerHTML = this.data.header;
 
-	getHeader: function() {
-		var self = this;
+    var timeSpan = document.createElement("span");
+    timeSpan.className = "parkTime";
 
-		var headerDiv = document.createElement("div");
-		headerDiv.innerHTML = self.data.header;
+    if (this.openingTime != null && this.closingTime != null) {
+      timeSpan.innerHTML = " " + this.openingTime + " - " + this.closingTime;
+    }
 
-		var timeSpan = document.createElement("span");
-		timeSpan.className = "parkTime";
+    headerDiv.appendChild(timeSpan);
 
-		if (self.openingTime != null && self.closingTime != null) {
-			timeSpan.innerHTML = " " + self.formatTime(self.openingTime) + " - " + self.formatTime(self.closingTime);
-		}
-		else {
-			timeSpan.innerHTML = " CLOSED";
-		}
+    return headerDiv.innerHTML;
+  },
 
-		headerDiv.appendChild(timeSpan);
+  start: function () {
+    Log.info("Starting module: " + this.name);
 
-		return headerDiv.innerHTML;
-	},
+    this.rides = [];
+    this.openingTime;
+    this.closingTime;
+    this.errorMessage;
 
-	start: function() {
-		Log.info("Starting module: " + this.name);
+    setInterval(function () {
+      this.processWaitTimes();
+    }, this.config.updateInterval);
+    this.processWaitTimes();
+  },
 
-		var self = this;
+  getDom: function () {
+    var table = document.createElement("table");
+    table.className = "small";
+    if (this.errorMessage) {
+      var row = document.createElement("tr");
+      row.className += "row";
+      table.appendChild(row);
 
-		self.rides = [];
-		self.openingTime;
-		self.closingTime;
+      var nameCell = document.createElement("td");
+      nameCell.className = "error";
+      nameCell.innerHTML = this.errorMessage;
+      row.appendChild(nameCell);
+    } else {
+      for (var i = 0, ride; (ride = this.rides[i++]); ) {
+        var row = document.createElement("tr");
+        row.className += "row";
+        table.appendChild(row);
 
-		setInterval(function() {
-			self.processWaitTimes();
-		}, self.config.updateInterval);
-		self.processWaitTimes();
-	},
+        var nameCell = document.createElement("td");
+        nameCell.className = "bright title";
+        nameCell.innerHTML = ride.name;
+        row.appendChild(nameCell);
 
-	getDom: function() {
-		var table = document.createElement("table");
-		table.className = "small";
+        var timeCell = document.createElement("td");
+        timeCell.className = "bright title light time";
 
- 		for(var i=0, ride; ride=this.rides[i++];) {
-			var row = document.createElement("tr");
-			row.className += "row";
-			table.appendChild(row);
+        if (ride.status == "Closed") {
+          timeCell.innerHTML = "closed";
+        } else if (ride.status == "Down") {
+          timeCell.innerHTML = "down";
+        } else if (ride.status == "Refurbishment") {
+          timeCell.innerHTML = "refurb";
+        } else {
+          timeCell.innerHTML = ride.waitTime;
+        }
 
-			var nameCell = document.createElement("td");
-			nameCell.className = "bright title";
-			nameCell.innerHTML = ride.name;
-			row.appendChild(nameCell);
+        row.appendChild(timeCell);
+      }
+    }
+    return table;
+  },
 
-			var timeCell = document.createElement("td");
-			timeCell.className = "bright title light time";
+  socketNotificationReceived: function (notification, payload) {
+    console.log("n: " + notification)
+    if (notification === "POPULATE_WAIT_TIMES_" + this.config.park.name) {
+      this.rides = payload.waitTimes;
+      this.updateDom();
+    } else if (
+      notification ===
+      "POPULATE_OPENING_TIMES_" + this.config.park.name
+    ) {
+      this.openingTime = payload.openingTime;
+      this.closingTime = payload.closingTime;
+      this.updateDom();
+    } else if (notification === "ERROR_" + this.config.park.name) {
+      this.errorMessage = payload.errorMessage;
+      this.updateDom();
+    }
+  },
 
-			if (ride.status == "Closed") {
- 				timeCell.innerHTML = "closed";
-			}
-			else if (ride.status == "Down") {
-				timeCell.innerHTML = "down";
-			}
-			else if (ride.status == "Refurbishment") {
-				timeCell.innerHTML = "refurb";
-			}
-			else {
-				timeCell.innerHTML = ride.waitTime;
- 			}
-
-			row.appendChild(timeCell);
-		}
-		return table;
-	},
-
-	socketNotificationReceived: function(notification, payload) {
-		var self = this;
-		if (notification === "POPULATE_WAIT_TIMES_" + this.config.park.name.replace(/ /g,"_")) {
-			payload.waitTimes.sort(function(a, b){
-				var nameA=a.name.toLowerCase(), nameB=b.name.toLowerCase();
-				if (nameA < nameB)
-				{return -1;};
-				if (nameA > nameB)
-				{return 1;};
-				return 0;
-			});
-
-			self.rides = payload.waitTimes;
-			self.updateDom();
-		}
-		else if (notification === "POPULATE_OPENING_TIMES_" + this.config.park.name.replace(/ /g,"_")) {
-			self.openingTime = payload.openingTime;
-			self.closingTime = payload.closingTime;
-			self.updateDom();
-		}
-	},
-
-	processWaitTimes: function() {
-		this.sendSocketNotification("GET_WAIT_TIMES", this.config.park);
-	},
-
-	formatTime: function(newDate) {
-		var date = new Date(newDate);
-		var hours = date.getHours();
-		var minutes = date.getMinutes();
-		var ampm = hours >= 12 ? "pm" : "am";
-		hours = hours % 12;
-		hours = hours ? hours : 12; // the hour '0' should be '12'
-		minutes = minutes < 10 ? "0"+minutes : minutes;
-		return hours + ":" + minutes + " " + ampm;
-	}
+  processWaitTimes: function () {
+    this.sendSocketNotification("GET_WAIT_TIMES", this.config.park);
+  }
 });

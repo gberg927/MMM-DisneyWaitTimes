@@ -1,20 +1,19 @@
 {
   "name": "MMM-DisneyWaitTimes",
-  "version": "1.1.0",
+  "version": "2.1.0",
   "description": " Disney Wait Times module for MagicMirror2",
   "main": "disneyWaitTimes.js",
   "author": "Dennis Glasberg",
   "license": "MIT",
-  "scripts": {
-    "rebuild": "electron-rebuild"
-  },
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
+    "axios": "^0.26.0",
     "core-js": "^3.6.5",
-    "socks": "^2.3.3",
-    "themeparks": "^5.1.47"
+    "luxon": "^2.3.1",
+    "socks": "^2.3.3"
   },
   "devDependencies": {
-    "electron-rebuild": "^2.3.5"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0"
   }
 }

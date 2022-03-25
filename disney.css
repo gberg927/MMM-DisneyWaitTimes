@@ -10,3 +10,8 @@
 .row {
   border-bottom: thin dotted white;
 }
+
+.error {
+  color: red;
+  text-transform: uppercase;
+}

@@ -1,130 +1,123 @@
+require("babel-core/register");
 require("babel-polyfill");
 const NodeHelper = require("node_helper");
-const Themeparks = require("themeparks");
-
-const DisneyWorldMagicKingdom = new Themeparks.Parks.WaltDisneyWorldMagicKingdom();
-const DisneyWorldEpcot = new Themeparks.Parks.WaltDisneyWorldEpcot();
-const DisneyWorldHollywoodStudios = new Themeparks.Parks.WaltDisneyWorldHollywoodStudios();
-const DisneyWorldAnimalKingdom = new Themeparks.Parks.WaltDisneyWorldAnimalKingdom();
-const DisneyLandMagicKingdom = new Themeparks.Parks.DisneylandResortMagicKingdom();
-const DisneyLandCaliforniaAdventure = new Themeparks.Parks.DisneylandResortCaliforniaAdventure();
-const DisneyWorldParisMagicKingdom = new Themeparks.Parks.DisneylandParisMagicKingdom();
-const DisneyWorldParisWaltDisneyStudios = new Themeparks.Parks.DisneylandParisWaltDisneyStudios();
+const axios = require("axios");
+const { DateTime } = require("luxon");
+const parks = require("./parks.json");
 
 module.exports = NodeHelper.create({
   start: function () {
     console.log("Starting module helper: " + this.name);
   },
 
-  processWaitTimes: function (park) {
-    var self = this;
-    console.log(park.name + ": Processing Wait Times...");
+  getWaitTimes: function (park) {
+    const sendError = (msg) => {
+      console.log(`Error Processing Wait Times: ${msg}`);
+      var payload = {
+        errorMessage: msg
+      };
 
-    const CheckOpeningTimes = (disneyPark) => {
-      disneyPark
-        .GetOpeningTimes()
-        .then((times) => {
-          var openingTime;
-          var closingTime;
-          for (var i = 0, time; (time = times[i++]); ) {
-            if (time.type == "Operating") {
-              if (
-                new Date() >= new Date(time.openingTime) &&
-                new Date() <= new Date(time.closingTime)
-              ) {
-                openingTime = new Date(time.openingTime);
-                closingTime = new Date(time.closingTime);
-              } else if (
-                new Date(time.openingTime).getDate() == new Date().getDate()
-              ) {
-                openingTime = new Date(time.openingTime);
-                closingTime = new Date(time.closingTime);
-              }
-            }
-          }
-
-          var payload = {
-            openingTime: openingTime || null,
-            closingTime: closingTime || null
-          };
-
-          self.sendSocketNotification(
-            "POPULATE_OPENING_TIMES_" + park.name.replace(/ /g, "_"),
-            payload
-          );
-        })
-        .catch((error) => {
-          console.log(park.name + ": Error Processing Opening Times...");
-          console.error(error);
-        });
+      this.sendSocketNotification(
+        "ERROR_" + park.name.replace(/ /g, "_"),
+        payload
+      );
     };
 
-    const CheckWaitTimes = (disneyPark) => {
-      disneyPark
-        .GetWaitTimes()
-        .then((rides) => {
-          waitTimes = [];
-          for (var i = 0, ride; (ride = rides[i++]); ) {
-            if (park.logRide) {
-              console.log(ride.name);
-              console.log(park.rides);
-            }
-            if (park.rides && park.rides.includes(ride.name)) {
-              waitTimes.push(ride);
-            }
-          }
-          console.log(park.name + ": Processed Wait Times...");
+    const getPark = () => {
+      const selectedPark = parks.find((p) => p.name === park.name);
+      const selectedRides = park.rides.map((r) => {
+        return {
+          id: selectedPark.rides.find((r2) => r2.name === r)?.id || null,
+          name: r
+        };
+      });
 
-          var payload = {
-            waitTimes: waitTimes
-          };
-
-          self.sendSocketNotification(
-            "POPULATE_WAIT_TIMES_" + park.name.replace(/ /g, "_"),
-            payload
-          );
-        })
-        .catch((error) => {
-          console.log(park.name + ": Error Processing Wait Times...");
-          console.error(error);
-        });
+      return {
+        ...selectedPark,
+        rides: selectedRides
+      };
     };
 
-    switch (park.name) {
-      case "Magic Kingdom":
-        CheckOpeningTimes(DisneyWorldMagicKingdom);
-        CheckWaitTimes(DisneyWorldMagicKingdom);
-        break;
-      case "Epcot":
-        CheckOpeningTimes(DisneyWorldEpcot);
-        CheckWaitTimes(DisneyWorldEpcot);
-        break;
-      case "Hollywood Studios":
-        CheckOpeningTimes(DisneyWorldHollywoodStudios);
-        CheckWaitTimes(DisneyWorldHollywoodStudios);
-        break;
-      case "Animal Kingdom":
-        CheckOpeningTimes(DisneyWorldAnimalKingdom);
-        CheckWaitTimes(DisneyWorldAnimalKingdom);
-        break;
-      case "Magic Kingdom - Disneyland Paris":
-        CheckOpeningTimes(DisneyWorldAnimalKingdom);
-        CheckWaitTimes(DisneyWorldAnimalKingdom);
-        break;
-      case "Magic Kingdom - Disneyland Resort":
-        CheckOpeningTimes(DisneyLandMagicKingdom);
-        CheckWaitTimes(DisneyLandMagicKingdom);
-        break;
-      case "California Adventure - Disneyland Resort":
-        CheckOpeningTimes(DisneyLandCaliforniaAdventure);
-        CheckWaitTimes(DisneyLandCaliforniaAdventure);
-        break;
+    const processWaitTimes = async (selectedPark) => {
+      console.log(selectedPark.name + ": Processing Wait Times...");
+      const waitTimes = await axios.get(
+        `https://api.themeparks.wiki/preview/parks/${selectedPark.id}/waittime`
+      );
+
+      const results = [];
+      for (const ride of selectedPark.rides) {
+        const waitTime = waitTimes.data.find(
+          (waitTime) => waitTime.id === ride.id
+        );
+        const result = {
+          name: ride.name,
+          status: waitTime?.status || null,
+          waitTime: waitTime?.waitTime || null
+        };
+        results.push(result);
+      }
+      results.sort((a, b) =>
+        a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+      );
+      const payload = { waitTimes: results };
+      console.log(selectedPark.name + ": Processed Wait Times...");
+
+      this.sendSocketNotification(
+        "POPULATE_WAIT_TIMES_" + selectedPark.name,
+        payload
+      );
+    };
+
+    const processOpeningTimes = async (selectedPark) => {
+      console.log(selectedPark.name + ": Processing Opening Times...");
+      const openingTimes = await axios.get(
+        `https://api.themeparks.wiki/preview/parks/${selectedPark.id}/calendar`
+      );
+
+      if (!openingTimes.data || !openingTimes.data.length) {
+        return;
+      }
+
+      const today = DateTime.now()
+        .setZone(selectedPark.timezone)
+        .startOf("day");
+
+      const todayOpeningTime = openingTimes.data.find((openingTime) =>
+        DateTime.fromISO(openingTime.date)
+          .setZone(selectedPark.timezone)
+          .startOf("day")
+          .equals(today)
+      );
+
+      const openingTime = DateTime.fromISO(todayOpeningTime.openingTime)
+        .setZone(selectedPark.timezone)
+        .toFormat("hh:mm a");
+      const closingTime = DateTime.fromISO(todayOpeningTime.closingTime)
+        .setZone(selectedPark.timezone)
+        .toFormat("hh:mm a");
+
+      const payload = { openingTime, closingTime };
+      console.log(selectedPark.name + ": Processed Opening Times...");
+
+      this.sendSocketNotification(
+        "POPULATE_OPENING_TIMES_" + selectedPark.name,
+        payload
+      );
+    };
+
+    const selectedPark = getPark();
+    if (!selectedPark) {
+      sendError("Selected park not found");
+      return;
     }
+
+    processWaitTimes(selectedPark);
+    processOpeningTimes(selectedPark);
   },
 
   socketNotificationReceived: function (notification, payload) {
     if (notification === "GET_WAIT_TIMES") {
-      this.processWaitTimes(payload);
+      this.getWaitTimes(payload);
     }
   }
 });

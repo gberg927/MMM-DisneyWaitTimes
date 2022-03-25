@@ -18,7 +18,6 @@ cd ~MagicMirror/modules/
 git clone git@github.com:gberg927/MMM-DisneyWaitTimes.git
 cd MMM-DisneyWaitTimes
 npm install
-npm run rebuild
 ```
 
 2. Add module to ~MagicMirror/config/config.js
@@ -27,128 +26,67 @@ npm run rebuild
 
 | **Option** | **Description**                                              |
 | ---------- | ------------------------------------------------------------ |
-| `park`     | An array of Parks that the wait times will be retrieved for. |
-
-The `feeds` property contains an array with multiple objects. These objects have the following properties:
+| `park`     | The park that the wait times will be retrieved for. |
 
 | Option    | Description                                                                                                                     |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `name`    | The name of the Park that will be used to retrieve wait times.                                                                  |
 | `ride`    | An array of the rides you would like to display the wait times for. This is a string representation of the ride name.           |
-| `logRide` | A boolean value that controls whether or not all ride objects will be logged for this park. Used for debugging purposes mainly. |
 
 Here is an example for Magic Kingdom - Disney World configuration in `config.js`
 
 ```
   {
     module: "MMM-DisneyWaitTimes",
-    header: "Magic Kingdom",
+    header: "Magic Kingdom - Walt Disney World",
     position: "top_left",
     config: {
       park: {
-        name: "Magic Kingdom",
+        name: "Magic Kingdom - Walt Disney World",
         rides: [
+          "A Pirate's Adventure ~ Treasures of the Seven Seas",
+          "Astro Orbiter",
           "Big Thunder Mountain Railroad",
           "Buzz Lightyear's Space Ranger Spin",
-          "\"it's a small world\"",
+          "Country Bear Jamboree",
+          "Dumbo the Flying Elephant",
+          "Enchanted Tales with Belle",
+          "it's a small world",
           "Jungle Cruise",
+          "Liberty Square Riverboat",
+          "Mad Tea Party",
+          "Main Street Trolley Show",
+          "Meet Ariel at Her Grotto",
+          "Meet Cinderella & Elena at Princess Fairytale Hall",
+          "Meet Daring Disney Pals as Circus Stars at Pete's Silly Side Show",
+          "Meet Dashing Disney Pals as Circus Stars at Pete’s Silly Side Show",
+          "Meet Mickey Mouse at Town Square Theater",
+          "Meet Rapunzel and Tiana at Princess Fairytale Hall",
+          "Meet Tinker Bell at Town Square Theater",
+          "Mickey's PhilharMagic",
+          "Monsters Inc. Laugh Floor",
           "Peter Pan's Flight",
           "Pirates of the Caribbean",
+          "Prince Charming Regal Carrousel",
+          "Seven Dwarfs Mine Train",
+          "Sorcerers of the Magic Kingdom",
           "Space Mountain",
           "Splash Mountain",
-          "Haunted Mansion",
+          "Swiss Family Treehouse",
+          "The Barnstormer",
+          "The Hall of Presidents",
+          "The Haunted Mansion",
+          "The Magic Carpets of Aladdin",
           "The Many Adventures of Winnie the Pooh",
+          "Tom Sawyer Island",
           "Tomorrowland Speedway",
-          "Under the Sea - Journey of The Little Mermaid",
-          "Seven Dwarfs Mine Train "
-        ],
-        logRide: false
+          "Tomorrowland Transit Authority PeopleMover",
+          "Under the Sea ~ Journey of the Little Mermaid",
+          "Walt Disney's Carousel of Progress",
+          "Walt Disney's Enchanted Tiki Room"
+        ]
       }
     }
   }
 ```
-
-Magic Kingdom - Disneyland Paris full configuration in `config.js`
-
-```
-  {
-    module: "MMM-DisneyWaitTimes",
-    header: "Magic Kingdom - Disneyland Paris",
-    position: "top_left",
-    config: {
-      park: {
-        name: "Magic Kingdom - Disneyland Paris",
-        rides: [
-          "'it's a small world'",
-          "Adventure Isle",
-          "Alice's Curious Labyrinth",
-          "Autopia®",
-          "Big Thunder Mountain",
-          "Blanche-Neige et les Sept Nains®",
-          "Buzz Lightyear Laser Blast",
-          "Casey Jr. – le Petit Train du Cirque",
-          "Disneyland Railroad",
-          "Disneyland Railroad Discoveryland Station",
-          "Disneyland Railroad Fantasyland Station",
-          "Disneyland Railroad Frontierland Depot",
-          "Disneyland Railroad Main Street Station",
-          "Dumbo the Flying Elephant",
-          "Frontierland Playground",
-          "Indiana Jones™ and the Temple of Peril",
-          "La Cabane des Robinson",
-          "La Galerie de la Belle au Bois Dormant",
-          "La Tanière du Dragon",
-          "Le Carrousel de Lancelot ",
-          "Le Passage Enchanté d'Aladdin",
-          "Le Pays des Contes de Fées",
-          "Les Mystères du Nautilus",
-          "Les Voyages de Pinocchio",
-          "Mad Hatter's Tea Cups",
-          "Main Street Vehicles",
-          "Meet Mickey Mouse",
-          "Mickey’s PhilharMagic",
-          "Orbitron®",
-          "Peter Pan's Flight",
-          "Phantom Manor",
-          "Pirate Galleon",
-          "Pirates of the Caribbean",
-          "Pirates' Beach",
-          "Princess Pavilion",
-          "Rustler Roundup Shootin' Gallery",
-          "Star Tours: The Adventures Continue*",
-          "Star Wars Hyperspace Mountain",
-          "Thunder Mesa Riverboat Landing",
-          "Welcome to Starport: A Star Wars Encounter"
-        ],
-        logRide: false
-      }
-    }
-  }
-```
-
-Walt Disney Studios - Disneyland Paris full configuration in `config.js`
-
-```
-  {
-    module: "MMM-DisneyWaitTimes",
-    header: "Walt Disney Studios - Disneyland Paris",
-    position: "top_left",
-    config: {
-      park: {
-        name: "Walt Disney Studios - Disneyland Paris",
-        rides: [
-          "Cars Quatre Roues Rallye",
-          "Crush's Coaster®",
-          "Les Tapis Volants - Flying Carpets Over Agrabah®",
-          "RC Racer",
-          "Ratatouille: The Adventure",
-          "Slinky® Dog Zigzag Spin",
-          "Studio Tram Tour®: Behind the Magic",
-          "The Twilight Zone Tower of Terror – A new Dimension of Chills",
-          "Toy Soldiers Parachute Drop"
-        ],
-        logRide: false
-      }
-    }
-  }
-```
+More resort/park examples can be found in the [examples directory](https://github.com/gberg927/MMM-DisneyWaitTimes/tree/master/examples).

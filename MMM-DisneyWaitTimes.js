@@ -30,13 +30,15 @@ Module.register("MMM-DisneyWaitTimes", {
   start: function () {
     Log.info("Starting module: " + this.name);
 
+    const self = this;
+
     this.rides = [];
     this.openingTime;
     this.closingTime;
     this.errorMessage;
 
     setInterval(function () {
-      this.processWaitTimes();
+      self.processWaitTimes();
     }, this.config.updateInterval);
     this.processWaitTimes();
   },
@@ -84,7 +86,7 @@ Module.register("MMM-DisneyWaitTimes", {
   },
 
   socketNotificationReceived: function (notification, payload) {
-    console.log("n: " + notification)
+    console.log("n: " + notification);
     if (notification === "POPULATE_WAIT_TIMES_" + this.config.park.name) {
       this.rides = payload.waitTimes;
       this.updateDom();

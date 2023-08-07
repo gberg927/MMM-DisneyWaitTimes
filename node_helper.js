@@ -1,5 +1,3 @@
-require("babel-core/register");
-require("babel-polyfill");
 const NodeHelper = require("node_helper");
 const axios = require("axios");
 const { DateTime } = require("luxon");
@@ -7,7 +5,7 @@ const parks = require("./parks.json");
 
 module.exports = NodeHelper.create({
   start: function () {
-    console.log("Starting module helper: " + this.name);
+    console.log(`Starting module helper: ${this.name}`);
   },
 
   getWaitTimes: function (park) {
@@ -18,7 +16,7 @@ module.exports = NodeHelper.create({
       };
 
       this.sendSocketNotification(
-        "ERROR_" + park.name.replace(/ /g, "_"),
+        `ERROR_${park.name.replace(/ /g, "_")}`,
         payload
       );
     };
@@ -39,7 +37,7 @@ module.exports = NodeHelper.create({
     };
 
     const processWaitTimes = async (selectedPark) => {
-      console.log(selectedPark.name + ": Processing Wait Times...");
+      console.log(`${selectedPark.name}: Processing Wait Times...`);
       const waitTimes = await axios.get(
         `https://api.themeparks.wiki/preview/parks/${selectedPark.id}/waittime`
       );
@@ -60,16 +58,16 @@ module.exports = NodeHelper.create({
         a.name.toLowerCase().localeCompare(b.name.toLowerCase())
       );
       const payload = { waitTimes: results };
-      console.log(selectedPark.name + ": Processed Wait Times...");
+      console.log(`${selectedPark.name}: Processed Wait Times...`);
 
       this.sendSocketNotification(
-        "POPULATE_WAIT_TIMES_" + selectedPark.name,
+        `POPULATE_WAIT_TIMES_${selectedPark.name}`,
         payload
       );
     };
 
     const processOpeningTimes = async (selectedPark) => {
-      console.log(selectedPark.name + ": Processing Opening Times...");
+      console.log(`${selectedPark.name}: Processing Opening Times...`);
       const openingTimes = await axios.get(
         `https://api.themeparks.wiki/preview/parks/${selectedPark.id}/calendar`
       );
@@ -97,10 +95,10 @@ module.exports = NodeHelper.create({
         .toFormat("hh:mm a");
 
       const payload = { openingTime, closingTime };
-      console.log(selectedPark.name + ": Processed Opening Times...");
+      console.log(`${selectedPark.name}: Processed Opening Times...`);
 
       this.sendSocketNotification(
-        "POPULATE_OPENING_TIMES_" + selectedPark.name,
+        `POPULATE_OPENING_TIMES_${selectedPark.name}`,
         payload
       );
     };

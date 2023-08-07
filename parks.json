@@ -5,164 +5,155 @@
     "timezone": "America/New_York",
     "rides": [
       {
-        "id": "WaltDisneyWorldMagicKingdom_17272158",
-        "name": "A Pirate's Adventure ~ Treasures of the Seven Seas"
+        "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
+        "id": "WaltDisneyWorldMagicKingdom_17272158"
+      },
+      { "name": "Astro Orbiter", "id": "WaltDisneyWorldMagicKingdom_80010107" },
+      {
+        "name": "Big Thunder Mountain Railroad",
+        "id": "WaltDisneyWorldMagicKingdom_80010110"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010107",
-        "name": "Astro Orbiter"
+        "name": "Buzz Lightyear's Space Ranger Spin",
+        "id": "WaltDisneyWorldMagicKingdom_80010114"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010110",
-        "name": "Big Thunder Mountain Railroad"
+        "name": "Casey Jr. Splash 'N' Soak Station",
+        "id": "f010bc01-b450-4476-a5f3-a5f2813104b2"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010114",
-        "name": "Buzz Lightyear's Space Ranger Spin"
+        "name": "Cinderella Castle",
+        "id": "90d79335-c907-4069-a021-d0fe1ec73ae2"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80069748",
-        "name": "Country Bear Jamboree"
+        "name": "Country Bear Jamboree",
+        "id": "WaltDisneyWorldMagicKingdom_80069748"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010129",
-        "name": "Dumbo the Flying Elephant"
+        "name": "Dumbo the Flying Elephant",
+        "id": "WaltDisneyWorldMagicKingdom_80010129"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_16767276",
-        "name": "Enchanted Tales with Belle"
+        "name": "Enchanted Tales with Belle",
+        "id": "WaltDisneyWorldMagicKingdom_16767276"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010149",
-        "name": "it's a small world"
+        "name": "Frontierland Shootin' Arcade",
+        "id": "365816dc-e99c-4b55-bafa-ba2cecd3ed96"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010153",
-        "name": "Jungle Cruise"
+        "name": "Haunted Mansion",
+        "id": "WaltDisneyWorldMagicKingdom_80010208"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010160",
-        "name": "Liberty Square Riverboat"
+        "name": "Horses - Disney Animals",
+        "id": "cf9d12fb-1e06-4c8e-ae6f-1e7f1e5c861c"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010162",
-        "name": "Mad Tea Party"
+        "name": "it's a small world",
+        "id": "WaltDisneyWorldMagicKingdom_80010149"
+      },
+      { "name": "Jungle Cruise", "id": "WaltDisneyWorldMagicKingdom_80010153" },
+      {
+        "name": "Liberty Square Riverboat",
+        "id": "WaltDisneyWorldMagicKingdom_80010160"
+      },
+      { "name": "Mad Tea Party", "id": "WaltDisneyWorldMagicKingdom_80010162" },
+      {
+        "name": "Main Street Vehicles",
+        "id": "WaltDisneyWorldMagicKingdom_80010165"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010165",
-        "name": "Main Street Trolley Show"
+        "name": "Mickey's PhilharMagic",
+        "id": "WaltDisneyWorldMagicKingdom_80010170"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_16874126",
-        "name": "Meet Ariel at Her Grotto"
+        "name": "Monsters Inc. Laugh Floor",
+        "id": "WaltDisneyWorldMagicKingdom_136550"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_18498503",
-        "name": "Meet Cinderella & Elena at Princess Fairytale Hall"
+        "name": "Peter Pan's Flight",
+        "id": "WaltDisneyWorldMagicKingdom_80010176"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_387133",
-        "name": "Meet Daring Disney Pals as Circus Stars at Pete's Silly Side Show"
+        "name": "Pirates of the Caribbean",
+        "id": "WaltDisneyWorldMagicKingdom_80010177"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_15743682",
-        "name": "Meet Dashing Disney Pals as Circus Stars at Pete’s Silly Side Show"
+        "name": "Prince Charming Regal Carrousel",
+        "id": "WaltDisneyWorldMagicKingdom_80010117"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_15850196",
-        "name": "Meet Mickey Mouse at Town Square Theater"
+        "name": "Seven Dwarfs Mine Train",
+        "id": "WaltDisneyWorldMagicKingdom_16767284"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_17505397",
-        "name": "Meet Rapunzel and Tiana at Princess Fairytale Hall"
+        "name": "Space Mountain",
+        "id": "WaltDisneyWorldMagicKingdom_80010190"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_17752793",
-        "name": "Meet Tinker Bell at Town Square Theater"
+        "name": "Splash Mountain",
+        "id": "WaltDisneyWorldMagicKingdom_80010192"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010170",
-        "name": "Mickey's PhilharMagic"
+        "name": "Swiss Family Treehouse",
+        "id": "WaltDisneyWorldMagicKingdom_80010196"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_136550",
-        "name": "Monsters Inc. Laugh Floor"
+        "name": "The Barnstormer",
+        "id": "WaltDisneyWorldMagicKingdom_16491297"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010176",
-        "name": "Peter Pan's Flight"
+        "name": "The Hall of Presidents",
+        "id": "WaltDisneyWorldMagicKingdom_80069754"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010177",
-        "name": "Pirates of the Caribbean"
+        "name": "The Magic Carpets of Aladdin",
+        "id": "WaltDisneyWorldMagicKingdom_80010210"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010117",
-        "name": "Prince Charming Regal Carrousel"
+        "name": "The Many Adventures of Winnie the Pooh",
+        "id": "WaltDisneyWorldMagicKingdom_80010213"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_16767284",
-        "name": "Seven Dwarfs Mine Train"
+        "name": "Tom Sawyer Island",
+        "id": "WaltDisneyWorldMagicKingdom_80010220"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_16414579",
-        "name": "Sorcerers of the Magic Kingdom"
+        "name": "Tomorrowland Speedway",
+        "id": "WaltDisneyWorldMagicKingdom_80010222"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010190",
-        "name": "Space Mountain"
+        "name": "Tomorrowland Transit Authority PeopleMover",
+        "id": "WaltDisneyWorldMagicKingdom_80010224"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010192",
-        "name": "Splash Mountain"
+        "name": "TRON Lightcycle / Run – New!",
+        "id": "5a43d1a7-ad53-4d25-abfe-25625f0da304"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010196",
-        "name": "Swiss Family Treehouse"
+        "name": "Under the Sea - Journey of The Little Mermaid",
+        "id": "WaltDisneyWorldMagicKingdom_16767263"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_16491297",
-        "name": "The Barnstormer"
+        "name": "Walt Disney World Railroad - Fantasyland",
+        "id": "WaltDisneyWorldMagicKingdom_16491299"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80069754",
-        "name": "The Hall of Presidents"
+        "name": "Walt Disney World Railroad - Frontierland",
+        "id": "WaltDisneyWorldMagicKingdom_2219610"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010208",
-        "name": "The Haunted Mansion"
+        "name": "Walt Disney World Railroad - Main Street, U.S.A.",
+        "id": "WaltDisneyWorldMagicKingdom_80010230"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010210",
-        "name": "The Magic Carpets of Aladdin"
+        "name": "Walt Disney's Carousel of Progress",
+        "id": "WaltDisneyWorldMagicKingdom_80010232"
       },
       {
-        "id": "WaltDisneyWorldMagicKingdom_80010213",
-        "name": "The Many Adventures of Winnie the Pooh"
-      },
-      {
-        "id": "WaltDisneyWorldMagicKingdom_80010220",
-        "name": "Tom Sawyer Island"
-      },
-      {
-        "id": "WaltDisneyWorldMagicKingdom_80010222",
-        "name": "Tomorrowland Speedway"
-      },
-      {
-        "id": "WaltDisneyWorldMagicKingdom_80010224",
-        "name": "Tomorrowland Transit Authority PeopleMover"
-      },
-      {
-        "id": "WaltDisneyWorldMagicKingdom_16767263",
-        "name": "Under the Sea ~ Journey of the Little Mermaid"
-      },
-      {
-        "id": "WaltDisneyWorldMagicKingdom_80010232",
-        "name": "Walt Disney's Carousel of Progress"
-      },
-      {
-        "id": "WaltDisneyWorldMagicKingdom_16124144",
-        "name": "Walt Disney's Enchanted Tiki Room"
+        "name": "Walt Disney's Enchanted Tiki Room",
+        "id": "WaltDisneyWorldMagicKingdom_16124144"
       }
     ]
   },
@@ -172,85 +163,130 @@
     "timezone": "America/New_York",
     "rides": [
       {
-        "id": "WaltDisneyWorldEpcot_19473173",
-        "name": "Awesome Planet"
+        "name": "Advanced Training Lab",
+        "id": "3d8f8f8f-f984-4d2e-8dea-5a79432bdf05"
       },
       {
-        "id": "WaltDisneyWorldEpcot_19463785",
-        "name": "Beauty and the Beast Sing-Along"
+        "name": "American Heritage Gallery",
+        "id": "4f0df9e7-d4c1-45b5-93e2-4a7bc92547b0"
+      },
+      { "name": "Awesome Planet", "id": "WaltDisneyWorldEpcot_19473173" },
+      {
+        "name": "Beauty and the Beast Sing-Along",
+        "id": "WaltDisneyWorldEpcot_19463785"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010174",
-        "name": "Canada Far and Wide in Circle-Vision 360"
+        "name": "Bijutsu-kan Gallery",
+        "id": "6f1d3b25-42c9-4e99-9dce-6c20d7a5deea"
       },
       {
-        "id": "WaltDisneyWorldEpcot_18269694",
-        "name": "Disney & Pixar Short Film Festival"
+        "name": "Bruce's Shark World",
+        "id": "2ecc4fff-2994-476f-9926-24a4af173838"
       },
       {
-        "id": "WaltDisneyWorldEpcot_18375495",
-        "name": "Frozen Ever After"
+        "name": "Canada Far and Wide in Circle-Vision 360",
+        "id": "WaltDisneyWorldEpcot_80010174"
       },
       {
-        "id": "WaltDisneyWorldEpcot_207395",
-        "name": "Gran Fiesta Tour Starring The Three Caballeros"
+        "name": "Coral Reefs - Disney Animals",
+        "id": "329c91db-3b4f-40e5-adaa-f902e6f450f9"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010145",
-        "name": "Impressions de France"
+        "name": "Disney and Pixar Short Film Festival",
+        "id": "WaltDisneyWorldEpcot_18269694"
+      },
+      { "name": "Frozen Ever After", "id": "WaltDisneyWorldEpcot_18375495" },
+      {
+        "name": "Gallery of Arts and History",
+        "id": "07dbeaea-85fa-45f2-872f-02f9e7510419"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010152",
-        "name": "Journey Into Imagination With Figment"
+        "name": "Gran Fiesta Tour Starring The Three Caballeros",
+        "id": "WaltDisneyWorldEpcot_207395"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010161",
-        "name": "Living with the Land"
+        "name": "Guardians of the Galaxy: Cosmic Rewind",
+        "id": "e3549451-b284-453d-9c31-e3b1207abd79"
       },
       {
-        "id": "WaltDisneyWorldEpcot_17564219",
-        "name": "Meet Anna and Elsa at Royal Sommerhus"
+        "name": "House of the Whispering Willows",
+        "id": "0f40274d-420a-425a-9377-29fd6e49484f"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010173",
-        "name": "Mission: SPACE Green"
+        "name": "ImageWorks - The \"What If\" Labs",
+        "id": "3e5f26ee-c02d-47fd-891e-5e4479073444"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010173",
-        "name": "Mission: SPACE Orange"
+        "name": "Impressions de France",
+        "id": "WaltDisneyWorldEpcot_80010145"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010180",
-        "name": "Reflections of China"
+        "name": "Invertebrates at EPCOT - Disney Animals",
+        "id": "86ea784f-eed1-4696-ac01-ebb65589bf0e"
       },
       {
-        "id": "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0",
-        "name": "Remy's Ratatouille Adventure"
+        "name": "Journey Into Imagination With Figment",
+        "id": "WaltDisneyWorldEpcot_80010152"
       },
       {
-        "id": "WaltDisneyWorldEpcot_20194",
-        "name": "Soarin'"
+        "name": "Kidcot Fun Stops",
+        "id": "3ace01d1-15fc-4fbb-99e4-81a696cb2d05"
+      },
+      { "name": "Living with the Land", "id": "WaltDisneyWorldEpcot_80010161" },
+      {
+        "name": "Manatees - Disney Animals",
+        "id": "37bb0aca-0dcf-4fa0-bc03-81d1b4ef9ac0"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010191",
-        "name": "Spaceship Earth"
+        "name": "Mexico Folk Art Gallery",
+        "id": "8f8746cb-c714-4c60-848d-e2dc4e6f586b"
+      },
+      { "name": "Mission: SPACE", "id": "WaltDisneyWorldEpcot_80010173" },
+      {
+        "name": "Palais du Cinéma",
+        "id": "18c533d6-a395-4ae4-9488-80fce9c497fe"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010199",
-        "name": "Test Track"
+        "name": "Project Tomorrow: Inventing the Wonders of the Future",
+        "id": "9053240b-7f7f-44fe-970b-bd7956cd5d4f"
       },
       {
-        "id": "WaltDisneyWorldEpcot_80010200",
-        "name": "The American Adventure"
+        "name": "Reef Fish - Disney Animals",
+        "id": "9244365a-ffad-4ea1-ad8d-a36ac3a0e383"
+      },
+      { "name": "Reflections of China", "id": "WaltDisneyWorldEpcot_80010180" },
+      {
+        "name": "Remy's Ratatouille Adventure",
+        "id": "1e735ffb-4868-47f1-b2cd-2ac1156cd5f0"
       },
       {
-        "id": "WaltDisneyWorldEpcot_107785",
-        "name": "The Seas with Nemo & Friends"
+        "name": "Sea Turtles - Disney Animals",
+        "id": "ade9aa6d-2eb0-4046-b04d-a0f98d0682d9"
+      },
+      { "name": "SeaBase", "id": "7969166f-feef-4350-b26e-6a6c745528f4" },
+      {
+        "name": "Sharks and Rays - Disney Animals",
+        "id": "4d34dd80-4042-4ada-a74f-ef35a0887b4f"
       },
       {
-        "id": "WaltDisneyWorldEpcot_62992",
-        "name": "Turtle Talk with Crush"
-      }
+        "name": "Soarin' Around the World",
+        "id": "WaltDisneyWorldEpcot_20194"
+      },
+      { "name": "Spaceship Earth", "id": "WaltDisneyWorldEpcot_80010191" },
+      {
+        "name": "Stave Church Gallery",
+        "id": "66ff36de-9cb3-4d9a-b891-1665d19ffb3e"
+      },
+      { "name": "Test Track", "id": "WaltDisneyWorldEpcot_80010199" },
+      {
+        "name": "The American Adventure",
+        "id": "WaltDisneyWorldEpcot_80010200"
+      },
+      {
+        "name": "The Seas with Nemo & Friends",
+        "id": "WaltDisneyWorldEpcot_107785"
+      },
+      { "name": "Turtle Talk With Crush", "id": "WaltDisneyWorldEpcot_62992" }
     ]
   },
   {
@@ -259,100 +295,64 @@
     "timezone": "America/New_York",
     "rides": [
       {
-        "id": "WaltDisneyWorldHollywoodStudios_18904172",
-        "name": "Alien Swirling Saucers"
+        "name": "Alien Swirling Saucers",
+        "id": "WaltDisneyWorldHollywoodStudios_18904172"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_18669338",
-        "name": "BB-8 Astromech on Duty"
+        "name": "Lightning McQueen's Racing Academy",
+        "id": "WaltDisneyWorldHollywoodStudios_19276204"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_80010848",
-        "name": "Beauty and the Beast - Live on Stage"
+        "name": "Mickey & Minnie's Runaway Railway",
+        "id": "WaltDisneyWorldHollywoodStudios_19259335"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_18368385",
-        "name": "Celebrity Spotlight"
+        "name": "Millennium Falcon: Smugglers Run",
+        "id": "WaltDisneyWorldHollywoodStudios_19263735"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_202731",
-        "name": "Disney Junior Dance Party!"
+        "name": "Muppet*Vision 3D",
+        "id": "WaltDisneyWorldHollywoodStudios_80010151"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_17842841",
-        "name": "For the First Time In Forever: A Frozen Sing-Along Celebration"
+        "name": "Rock 'n' Roller Coaster Starring Aerosmith",
+        "id": "WaltDisneyWorldHollywoodStudios_80010182"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_136",
-        "name": "Indiana Jones Epic Stunt Spectacular!"
+        "name": "Slinky Dog Dash",
+        "id": "WaltDisneyWorldHollywoodStudios_18904138"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_19276204",
-        "name": "Lightning McQueen's Racing Academy"
+        "name": "Star Tours – The Adventures Continue",
+        "id": "WaltDisneyWorldHollywoodStudios_80010193"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_19259335",
-        "name": "Mickey & Minnie's Runaway Railway"
+        "name": "Star Wars Launch Bay Theater",
+        "id": "WaltDisneyWorldHollywoodStudios_18360041"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_18368386",
-        "name": "Mickey and Minnie Starring in Red Carpet Dreams"
+        "name": "Star Wars Launch Bay",
+        "id": "6225cefe-eada-453b-9443-d1e679e28cda"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_19263735",
-        "name": "Millennium Falcon: Smugglers Run"
+        "name": "Star Wars: Rise of the Resistance",
+        "id": "WaltDisneyWorldHollywoodStudios_19263736"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_80010151",
-        "name": "Muppet*Vision 3D"
+        "name": "The Twilight Zone Tower of Terror™",
+        "id": "WaltDisneyWorldHollywoodStudios_80010218"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_80010182",
-        "name": "Rock 'n' Roller Coaster Starring Aerosmith"
+        "name": "Toy Story Mania!",
+        "id": "WaltDisneyWorldHollywoodStudios_209857"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_18904138",
-        "name": "Slinky Dog Dash"
+        "name": "Vacation Fun - An Original Animated Short with Mickey & Minnie",
+        "id": "WaltDisneyWorldHollywoodStudios_19497952"
       },
       {
-        "id": "WaltDisneyWorldHollywoodStudios_80010193",
-        "name": "Star Tours: The Adventures Continue"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_18360041",
-        "name": "Star Wars Launch Bay"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_18189398",
-        "name": "Star Wars Launch Bay: Encounter Darth Vader"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_18189394",
-        "name": "Star Wars Launch Bay: Meet Chewbacca"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_19263736",
-        "name": "Star Wars: Rise of the Resistance"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_80010218",
-        "name": "The Twilight Zone Tower of Terror"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_209857",
-        "name": "Toy Story Mania!"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_19497952",
-        "name": "Vacation Fun - An Original Animated Short with Mickey & Minnie"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_80010896",
-        "name": "Voyage of the Little Mermaid"
-      },
-      {
-        "id": "WaltDisneyWorldHollywoodStudios_18770880",
-        "name": "Walt Disney Presents"
+        "name": "Walt Disney Presents",
+        "id": "WaltDisneyWorldHollywoodStudios_18770880"
       }
     ]
   },
@@ -362,64 +362,180 @@
     "timezone": "America/New_York",
     "rides": [
       {
-        "id": "WaltDisneyWorldAnimalKingdom_18665186",
-        "name": "Avatar Flight of Passage"
+        "name": "Affection Section",
+        "id": "a15ce7cf-342a-4c7a-9372-7a1fa1054747"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010123",
-        "name": "DINOSAUR"
+        "name": "African Birds - Disney Animals",
+        "id": "904f17dd-0ef3-4794-be7e-58b884bf81b5"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_26068",
-        "name": "Expedition Everest - Legend of the Forbidden Mountain"
+        "name": "African Elephants - Disney Animals",
+        "id": "8b2bcfc1-23f6-4893-aca8-8225b1884a07"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010175",
-        "name": "Gorilla Falls Exploration Trail"
+        "name": "African Hogs - Disney Animals",
+        "id": "1897c9b3-436c-4046-937d-b6ff98233177"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010150",
-        "name": "It's Tough to Be a Bug!"
+        "name": "African Lions - Disney Animals",
+        "id": "f0e0d1a3-b1a1-42a1-b514-df96b7951db2"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010154",
-        "name": "Kali River Rapids"
+        "name": "Ankole Cattle - Disney Animals",
+        "id": "861bf387-f362-4904-9082-99e093efa6ee"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010157",
-        "name": "Kilimanjaro Safaris"
+        "name": "Asian Small-Clawed Otters - Disney Animals",
+        "id": "d04ec77c-c082-46fd-a253-c7c69bb14374"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_17421326",
-        "name": "Meet Favorite Disney Pals at Adventurers Outpost"
+        "name": "Avatar Flight of Passage",
+        "id": "WaltDisneyWorldAnimalKingdom_18665186"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_18665185",
-        "name": "Na'vi River Journey"
+        "name": "Black Rhinos - Disney Animals",
+        "id": "3655bbe2-8a41-4f35-a99f-e4d9d582c5fa"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010178",
-        "name": "Primeval Whirl"
+        "name": "Conservation Station",
+        "id": "6fbe6d02-4057-43bb-80a3-047b1e8a50ca"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_19330300",
-        "name": "The Animation Experience"
+        "name": "Cotton-Top Tamarins - Disney Animals",
+        "id": "f39dbb08-35db-4ad4-885d-e4787de5bde6"
+      },
+      { "name": "Dino-Sue", "id": "b9be5b8f-fe1f-4a77-bcad-5399429ecaa6" },
+      { "name": "DINOSAUR", "id": "WaltDisneyWorldAnimalKingdom_80010123" },
+      {
+        "name": "Discovery Island Trails",
+        "id": "4d27b0d7-2b0a-4569-90fa-e79f117ec7ef"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010203",
-        "name": "The Boneyard"
+        "name": "Expedition Everest - Legend of the Forbidden Mountain",
+        "id": "WaltDisneyWorldAnimalKingdom_26068"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010228",
-        "name": "TriceraTop Spin"
+        "name": "Flamingos at Africa - Disney Animals",
+        "id": "0941f812-f214-4837-9e67-ee1216ceed50"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010235",
-        "name": "Wildlife Express Train: Africa Station"
+        "name": "Flamingos at Discovery Island - Disney Animals",
+        "id": "17ecfc8c-8013-4d48-805b-f37f94cc2452"
       },
       {
-        "id": "WaltDisneyWorldAnimalKingdom_80010235",
-        "name": "Wildlife Express Train: Rafiki's Planet Watch Station"
+        "name": "Fossil Fun Games",
+        "id": "41b5c2ea-7c6f-47b5-8330-c00ffa347376"
+      },
+      {
+        "name": "Gibbons - Disney Animals",
+        "id": "d581fdde-6679-46e5-821d-a33c9b4cc7ed"
+      },
+      {
+        "name": "Giraffes - Disney Animals",
+        "id": "dd0392bc-2ebb-48ab-b1b5-1af1193acee2"
+      },
+      {
+        "name": "Gorilla Falls Exploration Trail",
+        "id": "WaltDisneyWorldAnimalKingdom_80010175"
+      },
+      {
+        "name": "Gorillas - Disney Animals",
+        "id": "811984d7-56f4-4ca6-848d-896d46aca846"
+      },
+      {
+        "name": "Hippopotamuses - Disney Animals",
+        "id": "125d9166-634b-41ec-a29c-182bb0a71dba"
+      },
+      {
+        "name": "Invertebrates at Conservation Station - Disney Animals",
+        "id": "759e7496-565c-420f-b0bd-777dfd598f08"
+      },
+      {
+        "name": "It's Tough to be a Bug!",
+        "id": "WaltDisneyWorldAnimalKingdom_80010150"
+      },
+      {
+        "name": "Kali River Rapids",
+        "id": "WaltDisneyWorldAnimalKingdom_80010154"
+      },
+      {
+        "name": "Kilimanjaro Safaris",
+        "id": "WaltDisneyWorldAnimalKingdom_80010157"
+      },
+      {
+        "name": "Komodo Dragons - Disney Animals",
+        "id": "a86b36a4-a439-43cd-8994-4030a159e261"
+      },
+      {
+        "name": "Maharajah Jungle Trek",
+        "id": "WaltDisneyWorldAnimalKingdom_80010164"
+      },
+      {
+        "name": "Meerkats - Disney Animals",
+        "id": "7f97be37-1210-462a-8039-1751c9b0b6a8"
+      },
+      {
+        "name": "Migratory Birds at Maharajah Jungle Trek - Disney Animals",
+        "id": "4edb7625-3f86-4da6-9a31-c0cd72fa94fc"
+      },
+      {
+        "name": "Migratory Birds at The Oasis Exhibits - Disney Animals",
+        "id": "20b61c85-1c69-4576-8d8e-ba7b16915577"
+      },
+      {
+        "name": "Migratory Birds at Tree of Life - Disney Animals",
+        "id": "239d5e6c-28c4-4ed4-80a9-d332692c0758"
+      },
+      {
+        "name": "Na'vi River Journey",
+        "id": "WaltDisneyWorldAnimalKingdom_18665185"
+      },
+      {
+        "name": "Okapis - Disney Animals",
+        "id": "f9e169bf-1e27-47c9-9f0f-ce8c6df4da53"
+      },
+      {
+        "name": "The Animation Experience at Conservation Station",
+        "id": "WaltDisneyWorldAnimalKingdom_19330300"
+      },
+      { "name": "The Boneyard", "id": "WaltDisneyWorldAnimalKingdom_80010203" },
+      {
+        "name": "The Oasis Exhibits",
+        "id": "bc997600-fcc0-4f6f-b908-a1419b26cfd8"
+      },
+      {
+        "name": "Tigers - Disney Animals",
+        "id": "c616884f-c55f-4f74-b58d-1a8374717380"
+      },
+      { "name": "Tree of Life", "id": "bc1ffa86-9b1a-4ce9-84a5-b479dfa3cb53" },
+      {
+        "name": "TriceraTop Spin",
+        "id": "WaltDisneyWorldAnimalKingdom_80010228"
+      },
+      {
+        "name": "Vultures - Disney Animals",
+        "id": "380c7bc4-646e-439a-8699-be1cd603a36d"
+      },
+      {
+        "name": "White Rhinos - Disney Animals",
+        "id": "97552d3f-8ddf-4aa5-b7b1-e14d5bd05568"
+      },
+      {
+        "name": "Wilderness Explorers",
+        "id": "6ef1b126-5b0b-46a1-8608-4fcf98ab92c8"
+      },
+      {
+        "name": "Wildlife Express Train",
+        "id": "WaltDisneyWorldAnimalKingdom_80010235"
+      },
+      {
+        "name": "Zebras at Africa - Disney Animals",
+        "id": "1dd9eb9b-ce6d-451b-b8ef-f39b3435b35a"
+      },
+      {
+        "name": "Zebras at Kilimanjaro Safaris - Disney Animals",
+        "id": "127eb7ec-9d9f-43bc-a259-9eb03c467fef"
       }
     ]
   },
@@ -429,184 +545,193 @@
     "timezone": "America/Los_Angeles",
     "rides": [
       {
-        "id": "DisneylandResortMagicKingdom_367495",
-        "name": "Alice in Wonderland"
+        "name": "Alice in Wonderland",
+        "id": "DisneylandResortMagicKingdom_367495"
+      },
+      { "name": "Astro Orbitor", "id": "DisneylandResortMagicKingdom_353291" },
+      { "name": "Autopia", "id": "DisneylandResortMagicKingdom_353293" },
+      {
+        "name": "Big Thunder Mountain Railroad",
+        "id": "DisneylandResortMagicKingdom_353295"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353291",
-        "name": "Astro Orbitor"
+        "name": "Buzz Lightyear Astro Blasters",
+        "id": "DisneylandResortMagicKingdom_353301"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353293",
-        "name": "Autopia"
+        "name": "Casey Jr. Circus Train",
+        "id": "DisneylandResortMagicKingdom_353305"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353295",
-        "name": "Big Thunder Mountain Railroad"
+        "name": "Chip 'n Dale Treehouse",
+        "id": "a574e235-2eab-4b8d-91ad-13c3dcc93018"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353301",
-        "name": "Buzz Lightyear Astro Blasters"
+        "name": "Chip 'n' Dale's GADGETcoaster",
+        "id": "DisneylandResortMagicKingdom_353337"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353305",
-        "name": "Casey Jr. Circus Train"
+        "name": "Davy Crockett's Explorer Canoes",
+        "id": "DisneylandResortMagicKingdom_353311"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353311",
-        "name": "Davy Crockett's Explorer Canoes"
+        "name": "Disneyland Monorail",
+        "id": "DisneylandResortMagicKingdom_353313"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353313",
-        "name": "Disneyland Monorail"
+        "name": "Disneyland Railroad",
+        "id": "DisneylandResortMagicKingdom_353315"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353315",
-        "name": "Disneyland Railroad - Tomorrowland Station"
+        "name": "Donald's Duck Pond",
+        "id": "ca32ef8a-ae0d-4c24-bf4f-e59192122e01"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353323",
-        "name": "Dumbo the Flying Elephant"
+        "name": "Dumbo the Flying Elephant",
+        "id": "DisneylandResortMagicKingdom_353323"
       },
       {
-        "id": "DisneylandResortMagicKingdom_18237377",
-        "name": "Encounter the Dark Side at Star Wars Launch Bay"
+        "name": "Finding Nemo Submarine Voyage",
+        "id": "DisneylandResortMagicKingdom_353327"
       },
       {
-        "id": "DisneylandResortMagicKingdom_401483",
-        "name": "Fantasmic!"
+        "name": "Fortune Tellers",
+        "id": "c2997e65-6db0-413f-a2db-ee995711d931"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353327",
-        "name": "Finding Nemo Submarine Voyage"
+        "name": "Frontierland Shootin' Exposition",
+        "id": "835deb74-de54-4d7f-9dc4-dacab90fcb60"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353337",
-        "name": "Gadget's Go Coaster"
+        "name": "Goofy's How-to-Play Yard",
+        "id": "b0eca3d3-a519-47f9-a5a7-9911126da2df"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353347",
-        "name": "Haunted Mansion"
+        "name": "Haunted Mansion",
+        "id": "DisneylandResortMagicKingdom_353347"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353355",
-        "name": "Indiana Jones™ Adventure"
+        "name": "Indiana Jones™ Adventure",
+        "id": "DisneylandResortMagicKingdom_353355"
       },
       {
-        "id": "DisneylandResortMagicKingdom_367492",
-        "name": "it's a small world"
+        "name": "it's a small world",
+        "id": "DisneylandResortMagicKingdom_367492"
+      },
+      { "name": "Jungle Cruise", "id": "DisneylandResortMagicKingdom_353363" },
+      {
+        "name": "King Arthur Carrousel",
+        "id": "DisneylandResortMagicKingdom_353365"
+      },
+      { "name": "Mad Tea Party", "id": "DisneylandResortMagicKingdom_353369" },
+      {
+        "name": "Main Street Cinema",
+        "id": "f5bb0d14-7eee-4ede-9230-eb256ce3664c"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353363",
-        "name": "Jungle Cruise"
+        "name": "Main Street Vehicles",
+        "id": "bcfd1e17-3eab-4203-b597-6257a257d427"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353365",
-        "name": "King Arthur Carrousel"
+        "name": "Mark Twain Riverboat",
+        "id": "DisneylandResortMagicKingdom_353375"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353369",
-        "name": "Mad Tea Party"
+        "name": "Matterhorn Bobsleds",
+        "id": "DisneylandResortMagicKingdom_353377"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353375",
-        "name": "Mark Twain Riverboat"
+        "name": "Mickey & Minnie's Runaway Railway",
+        "id": "cd670bff-81d1-4f34-8676-7bafdf49220a"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353377",
-        "name": "Matterhorn Bobsleds"
+        "name": "Millennium Falcon: Smugglers Run",
+        "id": "DisneylandResortMagicKingdom_19193459"
       },
       {
-        "id": "DisneylandResortMagicKingdom_18738682",
-        "name": "Meet Disney Princesses at Royal Hall"
+        "name": "Minnie's House",
+        "id": "c02fb82d-0860-4e95-8c61-899fa594d20e"
       },
       {
-        "id": "DisneylandResortMagicKingdom_18237385",
-        "name": "Meet the Resistance at Star Wars Launch Bay"
+        "name": "Mr. Toad's Wild Ride",
+        "id": "DisneylandResortMagicKingdom_353389"
       },
       {
-        "id": "DisneylandResortMagicKingdom_401524",
-        "name": "Meet Tinker Bell at Pixie Hollow"
+        "name": "Peter Pan's Flight",
+        "id": "DisneylandResortMagicKingdom_353399"
       },
       {
-        "id": "DisneylandResortMagicKingdom_17437680",
-        "name": "Mickey and the Magical Map"
+        "name": "Pinocchio's Daring Journey",
+        "id": "DisneylandResortMagicKingdom_353401"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353381",
-        "name": "Mickey's House and Meet Mickey"
+        "name": "Pirate's Lair on Tom Sawyer Island",
+        "id": "DisneylandResortMagicKingdom_353403"
       },
       {
-        "id": "DisneylandResortMagicKingdom_19193459",
-        "name": "Millennium Falcon: Smugglers Run"
+        "name": "Pirates of the Caribbean",
+        "id": "DisneylandResortMagicKingdom_353405"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353389",
-        "name": "Mr. Toad's Wild Ride"
+        "name": "Roger Rabbit's Car Toon Spin",
+        "id": "DisneylandResortMagicKingdom_353421"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353399",
-        "name": "Peter Pan's Flight"
+        "name": "Sailing Ship Columbia",
+        "id": "DisneylandResortMagicKingdom_353425"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353401",
-        "name": "Pinocchio's Daring Journey"
+        "name": "Sleeping Beauty Castle Walkthrough",
+        "id": "90d5a091-478c-4df1-adfe-c605b4005013"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353403",
-        "name": "Pirate's Lair on Tom Sawyer Island"
+        "name": "Snow White's Enchanted Wish",
+        "id": "DisneylandResortMagicKingdom_353429"
+      },
+      { "name": "Space Mountain", "id": "DisneylandResortMagicKingdom_353435" },
+      {
+        "name": "Splash Mountain",
+        "id": "DisneylandResortMagicKingdom_353437"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353405",
-        "name": "Pirates of the Caribbean"
+        "name": "Star Tours - The Adventures Continue",
+        "id": "DisneylandResortMagicKingdom_353439"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353421",
-        "name": "Roger Rabbit's Car Toon Spin"
+        "name": "Star Wars Launch Bay",
+        "id": "DisneylandResortMagicKingdom_18237343"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353425",
-        "name": "Sailing Ship Columbia"
+        "name": "Star Wars: Galaxy's Edge",
+        "id": "DisneylandResortMagicKingdom_19025523"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353429",
-        "name": "Snow White's Scary Adventures"
+        "name": "Star Wars: Rise of the Resistance",
+        "id": "DisneylandResortMagicKingdom_19193461"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353435",
-        "name": "Space Mountain"
+        "name": "Storybook Land Canal Boats",
+        "id": "DisneylandResortMagicKingdom_353443"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353437",
-        "name": "Splash Mountain"
+        "name": "Tarzan's Treehouse™",
+        "id": "DisneylandResortMagicKingdom_353445"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353439",
-        "name": "Star Tours – The Adventures Continue"
+        "name": "The Disney Gallery",
+        "id": "37858b2a-9c11-4ac6-9f8d-db7fa9088703"
       },
       {
-        "id": "DisneylandResortMagicKingdom_18237343",
-        "name": "Star Wars Launch Bay"
+        "name": "The Disneyland Story presenting Great Moments with Mr. Lincoln",
+        "id": "DisneylandResortMagicKingdom_353461"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353443",
-        "name": "Storybook Land Canal Boats"
+        "name": "The Many Adventures of Winnie the Pooh",
+        "id": "DisneylandResortMagicKingdom_353449"
       },
       {
-        "id": "DisneylandResortMagicKingdom_353445",
-        "name": "Tarzan's Treehouse™"
-      },
-      {
-        "id": "DisneylandResortMagicKingdom_353461",
-        "name": "The Disneyland Story presenting Great Moments with Mr. Lincoln"
-      },
-      {
-        "id": "DisneylandResortMagicKingdom_353449",
-        "name": "The Many Adventures of Winnie the Pooh"
-      },
-      {
-        "id": "DisneylandResortMagicKingdom_353325",
-        "name": "Walt Disney's Enchanted Tiki Room"
+        "name": "Walt Disney's Enchanted Tiki Room",
+        "id": "DisneylandResortMagicKingdom_353325"
       }
     ]
   },
@@ -616,120 +741,116 @@
     "timezone": "America/Los_Angeles",
     "rides": [
       {
-        "id": "DisneylandResortCaliforniaAdventure_353289",
-        "name": "Animation Academy"
+        "name": "Animation Academy",
+        "id": "DisneylandResortCaliforniaAdventure_353289"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_18708628",
-        "name": "Disney Junior Dance Party!"
+        "name": "Games of Pixar Pier",
+        "id": "1d24dd7a-372b-4195-8ad0-ba9679d72b08"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_18186543",
-        "name": "Frozen – Live at the Hyperion"
+        "name": "Golden Zephyr",
+        "id": "DisneylandResortCaliforniaAdventure_353341"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353341",
-        "name": "Golden Zephyr"
+        "name": "Goofy's Sky School",
+        "id": "DisneylandResortCaliforniaAdventure_15822029"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_15822029",
-        "name": "Goofy's Sky School"
+        "name": "Grizzly River Run",
+        "id": "DisneylandResortCaliforniaAdventure_353345"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353345",
-        "name": "Grizzly River Run"
+        "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+        "id": "DisneylandResortCaliforniaAdventure_353451"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353451",
-        "name": "Guardians of the Galaxy – Mission: BREAKOUT!"
+        "name": "Incredicoaster",
+        "id": "DisneylandResortCaliforniaAdventure_353303"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_19269274",
-        "name": "Heroic Encounter: Captain Marvel"
+        "name": "Inside Out Emotional Whirlwind",
+        "id": "DisneylandResortCaliforniaAdventure_19285637"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353303",
-        "name": "Incredicoaster"
+        "name": "Jessie's Critter Carousel",
+        "id": "DisneylandResortCaliforniaAdventure_353367"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_19285637",
-        "name": "Inside Out Emotional Whirlwind"
+        "name": "Jumpin' Jellyfish",
+        "id": "DisneylandResortCaliforniaAdventure_353361"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353367",
-        "name": "Jessie's Critter Carousel"
+        "name": "Luigi's Rollickin' Roadsters",
+        "id": "DisneylandResortCaliforniaAdventure_18343088"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353361",
-        "name": "Jumpin' Jellyfish"
+        "name": "Mater's Junkyard Jamboree",
+        "id": "DisneylandResortCaliforniaAdventure_16514431"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_18343088",
-        "name": "Luigi's Rollickin' Roadsters"
+        "name": "Mickey's PhilharMagic",
+        "id": "DisneylandResortCaliforniaAdventure_19299875"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_16514431",
-        "name": "Mater's Junkyard Jamboree"
+        "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+        "id": "DisneylandResortCaliforniaAdventure_353387"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_19299875",
-        "name": "Mickey's PhilharMagic"
+        "name": "Pixar Pal-A-Round - Swinging",
+        "id": "DisneylandResortCaliforniaAdventure_353379"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353387",
-        "name": "Monsters Inc. Mike & Sulley to the Rescue!"
+        "name": "Pixar Pal-A-Round – Non-Swinging",
+        "id": "DisneylandResortCaliforniaAdventure_19009994"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_19009994",
-        "name": "Pixar Pal-A-Round – Non-Swinging"
+        "name": "Radiator Springs Racers",
+        "id": "DisneylandResortCaliforniaAdventure_16514416"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353379",
-        "name": "Pixar Pal-A-Round – Swinging"
+        "name": "Red Car Trolley",
+        "id": "DisneylandResortCaliforniaAdventure_16581435"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_16514416",
-        "name": "Radiator Springs Racers"
+        "name": "Redwood Creek Challenge Trail",
+        "id": "DisneylandResortCaliforniaAdventure_353413"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_16581435",
-        "name": "Red Car Trolley - Buena Vista Street"
+        "name": "Silly Symphony Swings",
+        "id": "DisneylandResortCaliforniaAdventure_15510732"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353413",
-        "name": "Redwood Creek Challenge Trail"
+        "name": "Soarin' Around the World",
+        "id": "DisneylandResortCaliforniaAdventure_353431"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_15510732",
-        "name": "Silly Symphony Swings"
+        "name": "Sorcerer's Workshop",
+        "id": "DisneylandResortCaliforniaAdventure_353433"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353431",
-        "name": "Soarin' Over California"
+        "name": "The Bakery Tour",
+        "id": "eb77ee1f-3207-44fd-acfc-d7bc18602007"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353433",
-        "name": "Sorcerer's Workshop"
+        "name": "The Little Mermaid - Ariel's Undersea Adventure",
+        "id": "DisneylandResortCaliforniaAdventure_15575069"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_15575069",
-        "name": "The Little Mermaid ~ Ariel's Undersea Adventure"
+        "name": "Toy Story Midway Mania!",
+        "id": "DisneylandResortCaliforniaAdventure_353453"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353453",
-        "name": "Toy Story Midway Mania!"
+        "name": "Turtle Talk with Crush",
+        "id": "DisneylandResortCaliforniaAdventure_353457"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353457",
-        "name": "Turtle Talk with Crush"
+        "name": "Walt Disney Imagineering Blue Sky Cellar",
+        "id": "DisneylandResortCaliforniaAdventure_353459"
       },
       {
-        "id": "DisneylandResortCaliforniaAdventure_353459",
-        "name": "Walt Disney Imagineering Blue Sky Cellar"
-      },
-      {
-        "id": "DisneylandResortCaliforniaAdventure_401479",
-        "name": "World of Color"
+        "name": "WEB SLINGERS: A Spider-Man Adventure",
+        "id": "DisneylandResortCaliforniaAdventure_19531124"
       }
     ]
   },
@@ -738,173 +859,164 @@
     "name": "Magic Kingdom - Disneyland Paris",
     "timezone": "Europe/Paris",
     "rides": [
+      { "name": "Adventure Isle", "id": "DisneylandParisMagicKingdom_P1AA00" },
       {
-        "id": "DisneylandParisMagicKingdom_P1AA00",
-        "name": "Adventure Isle"
+        "name": "Alice's Curious Labyrinth",
+        "id": "DisneylandParisMagicKingdom_P1NA00"
+      },
+      { "name": "Autopia®", "id": "DisneylandParisMagicKingdom_P1DA03" },
+      {
+        "name": "Big Thunder Mountain",
+        "id": "DisneylandParisMagicKingdom_P1RA00"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA00",
-        "name": "Alice's Curious Labyrinth"
+        "name": "Blanche-Neige et les Sept Nains®",
+        "id": "DisneylandParisMagicKingdom_P1NA01"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1DA03",
-        "name": "Autopia®"
+        "name": "Buzz Lightyear Laser Blast",
+        "id": "DisneylandParisMagicKingdom_P1DA04"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1RA00",
-        "name": "Big Thunder Mountain"
+        "name": "Casey Jr. – le Petit Train du Cirque",
+        "id": "DisneylandParisMagicKingdom_P1NA03"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA01",
-        "name": "Blanche-Neige et les Sept Nains®"
+        "name": "Discovery Arcade",
+        "id": "DisneylandParisMagicKingdom_P1MA00"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1DA04",
-        "name": "Buzz Lightyear Laser Blast"
+        "name": "Disneyland Railroad Discoveryland Station",
+        "id": "DisneylandParisMagicKingdom_P1DA10"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA03",
-        "name": "Casey Jr. – le Petit Train du Cirque"
+        "name": "Disneyland Railroad Fantasyland Station",
+        "id": "DisneylandParisMagicKingdom_P1NA16"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1MA00",
-        "name": "Discovery Arcade"
+        "name": "Disneyland Railroad Frontierland Depot",
+        "id": "DisneylandParisMagicKingdom_P1RA10"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1DA10",
-        "name": "Disneyland Railroad Discoveryland Station"
+        "name": "Disneyland Railroad Main Street Station",
+        "id": "DisneylandParisMagicKingdom_P1MA05"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA16",
-        "name": "Disneyland Railroad Fantasyland Station"
+        "name": "Disneyland Railroad",
+        "id": "DisneylandParisMagicKingdom_P1RA10"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1RA10",
-        "name": "Disneyland Railroad Frontierland Depot"
+        "name": "Dumbo the Flying Elephant",
+        "id": "DisneylandParisMagicKingdom_P1NA05"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1MA05",
-        "name": "Disneyland Railroad Main Street Station"
+        "name": "Frontierland Playground",
+        "id": "DisneylandParisMagicKingdom_P1RA07"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA05",
-        "name": "Dumbo the Flying Elephant"
+        "name": "Gardens of Wonder",
+        "id": "b19565b8-b7aa-417a-a578-77737bf059b1"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1RA07",
-        "name": "Frontierland Playground"
+        "name": "Horse-Drawn Streetcars",
+        "id": "DisneylandParisMagicKingdom_P1MA02"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1MA02",
-        "name": "Horse-Drawn Streetcars"
+        "name": "Indiana Jones™ and the Temple of Peril",
+        "id": "DisneylandParisMagicKingdom_P1AA02"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1AA02",
-        "name": "Indiana Jones™ and the Temple of Peril"
+        "name": "it's a small world",
+        "id": "DisneylandParisMagicKingdom_P1NA07"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA07",
-        "name": "it's a small world'"
+        "name": "La Cabane des Robinson",
+        "id": "DisneylandParisMagicKingdom_P1AA01"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1AA01",
-        "name": "La Cabane des Robinson"
+        "name": "La Galerie de la Belle au Bois Dormant",
+        "id": "DisneylandParisMagicKingdom_P1NA06"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA06",
-        "name": "La Galerie de la Belle au Bois Dormant"
+        "name": "La Tanière du Dragon",
+        "id": "DisneylandParisMagicKingdom_P1NA12"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA12",
-        "name": "La Tanière du Dragon"
+        "name": "Le Carrousel de Lancelot ",
+        "id": "DisneylandParisMagicKingdom_P1NA02"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA02",
-        "name": "Le Carrousel de Lancelot"
+        "name": "Le Passage Enchanté d'Aladdin",
+        "id": "DisneylandParisMagicKingdom_P1AA03"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1AA03",
-        "name": "Le Passage Enchanté d'Aladdin"
+        "name": "Le Pays des Contes de Fées",
+        "id": "DisneylandParisMagicKingdom_P1NA09"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA09",
-        "name": "Le Pays des Contes de Fées"
+        "name": "Les Mystères du Nautilus",
+        "id": "DisneylandParisMagicKingdom_P1DA06"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA13",
-        "name": "Les Voyages de Pinocchio"
+        "name": "Les Voyages de Pinocchio",
+        "id": "DisneylandParisMagicKingdom_P1NA13"
+      },
+      { "name": "Liberty Arcade", "id": "DisneylandParisMagicKingdom_P1MA03" },
+      {
+        "name": "Mad Hatter's Tea Cups",
+        "id": "DisneylandParisMagicKingdom_P1NA08"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1MA03",
-        "name": "Liberty Arcade"
+        "name": "Main Street Vehicles",
+        "id": "DisneylandParisMagicKingdom_P1MA04"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA08",
-        "name": "Mad Hatter's Tea Cups"
+        "name": "Meet Mickey Mouse",
+        "id": "DisneylandParisMagicKingdom_P1MA06"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1MA04",
-        "name": "Main Street Vehicles"
+        "name": "Mickey’s PhilharMagic",
+        "id": "DisneylandParisMagicKingdom_P1DA13"
+      },
+      { "name": "Orbitron®", "id": "DisneylandParisMagicKingdom_P1DA07" },
+      {
+        "name": "Peter Pan's Flight",
+        "id": "DisneylandParisMagicKingdom_P1NA10"
+      },
+      { "name": "Phantom Manor", "id": "DisneylandParisMagicKingdom_P1RA03" },
+      { "name": "Pirate Galleon", "id": "DisneylandParisMagicKingdom_P1AA08" },
+      {
+        "name": "Pirates of the Caribbean",
+        "id": "DisneylandParisMagicKingdom_P1AA04"
+      },
+      { "name": "Pirates' Beach", "id": "DisneylandParisMagicKingdom_P1AA05" },
+      {
+        "name": "Princess Pavilion",
+        "id": "DisneylandParisMagicKingdom_P1NA17"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1MA06",
-        "name": "Meet Mickey Mouse"
+        "name": "Rustler Roundup Shootin' Gallery",
+        "id": "DisneylandParisMagicKingdom_P1RA05"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1DA13",
-        "name": "Mickey’s PhilharMagic"
+        "name": "Sleeping Beauty Castle",
+        "id": "DisneylandParisMagicKingdom_P1NA04"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1DA07",
-        "name": "Orbitron®"
+        "name": "Star Tours: The Adventures Continue*",
+        "id": "DisneylandParisMagicKingdom_P1DA09"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1NA10",
-        "name": "Peter Pan's Flight"
+        "name": "Star Wars Hyperspace Mountain",
+        "id": "DisneylandParisMagicKingdom_P1DA08"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1RA03",
-        "name": "Phantom Manor"
+        "name": "Thunder Mesa Riverboat Landing",
+        "id": "DisneylandParisMagicKingdom_P1RA06"
       },
       {
-        "id": "DisneylandParisMagicKingdom_P1AA08",
-        "name": "Pirate Galleon"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1AA04",
-        "name": "Pirates of the Caribbean"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1AA05",
-        "name": "Pirates' Beach"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1NA17",
-        "name": "Princess Pavilion"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1RA05",
-        "name": "Rustler Roundup Shootin' Gallery"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1NA04",
-        "name": "Sleeping Beauty Castle"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1DA09",
-        "name": "Star Tours: The Adventures Continue*"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1DA08",
-        "name": "Star Wars Hyperspace Mountain"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1RA06",
-        "name": "Thunder Mesa Riverboat Landing"
-      },
-      {
-        "id": "DisneylandParisMagicKingdom_P1DA14",
-        "name": "Welcome to Starport: A Star Wars Encounter"
+        "name": "Welcome to Starport: A Star Wars Encounter",
+        "id": "DisneylandParisMagicKingdom_P1DA14"
       }
     ]
   },
@@ -914,48 +1026,53 @@
     "timezone": "Europe/Paris",
     "rides": [
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA02",
-        "name": "Cars Quatre Roues Rallye"
+        "name": "Animation Academy",
+        "id": "5adb82c0-8efb-4751-9fac-39781ab690c4"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA00",
-        "name": "Cars ROAD TRIP"
+        "name": "Avengers Assemble: Flight Force",
+        "id": "ff2e7d6f-5aaf-47b8-8695-53a66e9fe073"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA03",
-        "name": "Crush's Coaster"
+        "name": "Cars Quatre Roues Rallye",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA02"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2FD03",
-        "name": "Disney Studio 1"
+        "name": "Cars ROAD TRIP",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA00"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA05",
-        "name": "Les Tapis Volants - Flying Carpets Over Agrabah®"
+        "name": "Crush's Coaster",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA03"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA09",
-        "name": "Ratatouille: The Adventure"
+        "name": "Disney Studio 1",
+        "id": "DisneylandParisWaltDisneyStudios_P2FD03"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA06",
-        "name": "RC Racer"
+        "name": "Les Tapis Volants - Flying Carpets Over Agrabah®",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA05"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA08",
-        "name": "Slinky® Dog Zigzag Spin"
+        "name": "Ratatouille: The Adventure",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA09"
+      },
+      { "name": "RC Racer", "id": "DisneylandParisWaltDisneyStudios_P2XA06" },
+      {
+        "name": "Slinky® Dog Zigzag Spin",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA08"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2ZA02",
-        "name": "The Twilight Zone Tower of Terror"
+        "name": "Spider-Man W.E.B. Adventure",
+        "id": "f710814b-232d-4469-aad7-d98b328a15b7"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_00000",
-        "name": "Top secret - Under construction: The Avengers new headquarters"
+        "name": "The Twilight Zone Tower of Terror",
+        "id": "DisneylandParisWaltDisneyStudios_P2ZA02"
       },
       {
-        "id": "DisneylandParisWaltDisneyStudios_P2XA07",
-        "name": "Toy Soldiers Parachute Drop"
+        "name": "Toy Soldiers Parachute Drop",
+        "id": "DisneylandParisWaltDisneyStudios_P2XA07"
       }
     ]
   },
@@ -965,100 +1082,134 @@
     "timezone": "Asia/Hong_Kong",
     "rides": [
       {
-        "id": "HongKongDisneylandPark_attAnimationAcademy",
-        "name": "Animation Academy"
+        "name": "Animation Academy",
+        "id": "HongKongDisneylandPark_attAnimationAcademy"
       },
       {
-        "id": "HongKongDisneylandPark_attAntManAndTheWaspNanoBattle",
-        "name": "Ant-Man and The Wasp: Nano Battle!"
+        "name": "Ant-Man and The Wasp: Nano Battle!",
+        "id": "HongKongDisneylandPark_attAntManAndTheWaspNanoBattle"
       },
       {
-        "id": "HongKongDisneylandPark_attBigGrizzlyMountainRunawayMineCars",
-        "name": "Big Grizzly Mountain Runaway Mine Cars"
+        "name": "Art of Animation",
+        "id": "1bbde98f-af17-4bf3-b069-54f637f474d3"
+      },
+      { "name": "Barrel of Fun", "id": "242c0403-c7d4-4efc-b640-bfaddc67207f" },
+      {
+        "name": "Big Grizzly Mountain Runaway Mine Cars",
+        "id": "HongKongDisneylandPark_attBigGrizzlyMountainRunawayMineCars"
       },
       {
-        "id": "HongKongDisneylandPark_attCinderellaCarousel",
-        "name": "Cinderella Carousel"
+        "name": "Castle of Magical Dreams",
+        "id": "d3485c69-53b1-4178-8ad7-773139e7256f"
       },
       {
-        "id": "HongKongDisneylandPark_attDumbotheFlyingElephant",
-        "name": "Dumbo the Flying Elephant"
+        "name": "Cinderella Carousel",
+        "id": "HongKongDisneylandPark_attCinderellaCarousel"
       },
       {
-        "id": "HongKongDisneylandPark_attFairyTaleForest",
-        "name": "Fairy Tale Forest - presented by PANDORA"
+        "name": "Duffy and Friends Play House",
+        "id": "d0a93222-d878-468b-b52d-6822ceaa3b76"
       },
       {
-        "id": "HongKongDisneylandPark_attHongKongDisneylandRailroadMainStreetStation",
-        "name": "Hong Kong Disneyland Railroad – Main Street Station"
+        "name": "Dumbo the Flying Elephant",
+        "id": "HongKongDisneylandPark_attDumbotheFlyingElephant"
       },
       {
-        "id": "HongKongDisneylandPark_attHyperspaceMountain",
-        "name": "Hyperspace Mountain"
+        "name": "Fairy Tale Forest - presented by PANDORA",
+        "id": "HongKongDisneylandPark_attFairyTaleForest"
       },
       {
-        "id": "HongKongDisneylandPark_attIronManExperience",
-        "name": "Iron Man Experience - Presented by AIA"
+        "name": "Fantasy Gardens",
+        "id": "HongKongDisneylandPark_attFantasyGardens"
       },
       {
-        "id": "HongKongDisneylandPark_attIronManTechShowcase",
-        "name": "Iron Man Tech Showcase - Presented by Stark Industries"
+        "name": "Garden of Wonders",
+        "id": "5e9e0608-f902-454a-9ac6-a731b2690077"
+      },
+      { "name": "Geyser Gulch", "id": "5c2fa68e-05f7-4ffc-ad21-89575328c4ba" },
+      {
+        "name": "Hong Kong Disneyland Railroad - Main Street Station",
+        "id": "HongKongDisneylandPark_attHongKongDisneylandRailroadMainStreetStation"
       },
       {
-        "id": "HongKongDisneylandPark_attitsasmallworld",
-        "name": "it's a small world"
+        "name": "Hong Kong Disneyland Railroad – Fantasyland Station",
+        "id": "HongKongDisneylandPark_attHongKongDisneylandRailroadFantasylandStation"
       },
       {
-        "id": "HongKongDisneylandPark_attJungleRiverCruise",
-        "name": "Jungle River Cruise"
+        "name": "Hyperspace Mountain",
+        "id": "HongKongDisneylandPark_attHyperspaceMountain"
       },
       {
-        "id": "HongKongDisneylandPark_attMadHatterTeaCups",
-        "name": "Mad Hatter Tea Cups"
+        "name": "Iron Man Experience - Presented by AIA",
+        "id": "HongKongDisneylandPark_attIronManExperience"
       },
       {
-        "id": "HongKongDisneylandPark_attMainStreetVehicles",
-        "name": "Main Street Vehicles"
+        "name": "Iron Man Tech Showcase - Presented by Stark Industries",
+        "id": "HongKongDisneylandPark_attIronManTechShowcase"
       },
       {
-        "id": "HongKongDisneylandPark_attMickeysPhilharMagic",
-        "name": "Mickey’s PhilharMagic"
+        "name": "it's a small world",
+        "id": "HongKongDisneylandPark_attitsasmallworld"
       },
       {
-        "id": "HongKongDisneylandPark_attMysticManor",
-        "name": "Mystic Manor"
+        "name": "Jungle River Cruise",
+        "id": "HongKongDisneylandPark_attJungleRiverCruise"
       },
       {
-        "id": "HongKongDisneylandPark_attOrbitron",
-        "name": "Orbitron"
+        "name": "Karibuni Marketplace",
+        "id": "572f113a-7837-41d0-8ed3-28dcf8075ec9"
+      },
+      { "name": "Liki Tikis", "id": "e41de87c-22ba-4269-a0bc-9ba496dfb0c1" },
+      {
+        "name": "Mad Hatter Tea Cups",
+        "id": "HongKongDisneylandPark_attMadHatterTeaCups"
       },
       {
-        "id": "HongKongDisneylandPark_attRafttoTarzansTreehouse",
-        "name": "Rafts to Tarzan's Treehouse"
+        "name": "Main Street Vehicles",
+        "id": "HongKongDisneylandPark_attMainStreetVehicles"
       },
       {
-        "id": "HongKongDisneylandPark_attRCRacer",
-        "name": "RC Racer"
+        "name": "Mickey's PhilharMagic",
+        "id": "HongKongDisneylandPark_attMickeysPhilharMagic"
+      },
+      { "name": "Mystic Manor", "id": "HongKongDisneylandPark_attMysticManor" },
+      {
+        "name": "Mystic Point Freight Depot",
+        "id": "2884d12b-e322-413c-953b-093f17839db3"
+      },
+      { "name": "Orbitron", "id": "HongKongDisneylandPark_attOrbitron" },
+      {
+        "name": "Rafts to Tarzan's Treehouse",
+        "id": "HongKongDisneylandPark_attRafttoTarzansTreehouse"
+      },
+      { "name": "RC Racer", "id": "HongKongDisneylandPark_attRCRacer" },
+      {
+        "name": "Slinky Dog Spin",
+        "id": "HongKongDisneylandPark_attSlinkyDogSpin"
       },
       {
-        "id": "HongKongDisneylandPark_attSlinkyDogSpin",
-        "name": "Slinky Dog Spin"
+        "name": "Sword in the Stone",
+        "id": "67583146-8b6a-43d2-a31f-919e32afe65b"
       },
       {
-        "id": "HongKongDisneylandPark_attStarWarsCommandPost",
-        "name": "STAR WARS™: Command Post"
+        "name": "Tarzan's Treehouse",
+        "id": "HongKongDisneylandPark_attTarzansTreehouse"
       },
       {
-        "id": "HongKongDisneylandPark_attTarzansTreehouse",
-        "name": "Tarzan’s Treehouse"
+        "name": "The Many Adventures of Winnie the Pooh",
+        "id": "HongKongDisneylandPark_attTheManyAdventuresofWinniethePooh"
       },
       {
-        "id": "HongKongDisneylandPark_attTheManyAdventuresofWinniethePooh",
-        "name": "The Many Adventures of Winnie the Pooh"
+        "name": "The Royal Reception Hall",
+        "id": "HongKongDisneylandPark_attTheRoyalReceptionHall"
       },
       {
-        "id": "HongKongDisneylandPark_attToySoldierParachuteDrop",
-        "name": "Toy Soldier Parachute Drop"
+        "name": "Toy Soldier Parachute Drop",
+        "id": "HongKongDisneylandPark_attToySoldierParachuteDrop"
+      },
+      {
+        "name": "Wild West Photo Fun",
+        "id": "89009464-fa59-4684-a0fa-8abef17ef494"
       }
     ]
   },
@@ -1068,112 +1219,130 @@
     "timezone": "Asia/Shanghai",
     "rides": [
       {
-        "id": "ShanghaiDisneylandPark_attOnceUponTimeAdventure",
-        "name": "“Once Upon a Time” Adventure"
+        "name": "Alice in Wonderland Maze",
+        "id": "ShanghaiDisneylandPark_attAliceWonderlandMaze"
       },
       {
-        "id": "ShanghaiDisneylandPark_attAliceWonderlandMaze",
-        "name": "Alice in Wonderland Maze"
+        "name": "Avatar: Explore Pandora ",
+        "id": "dee8de3b-9d5d-4dd9-b768-03d7bf36c07b"
       },
       {
-        "id": "ShanghaiDisneylandPark_attBuzzLightyearPlanetRescue",
-        "name": "Buzz Lightyear Planet Rescue"
+        "name": "Become Iron Man at the Marvel Universe",
+        "id": "ShanghaiDisneylandPark_attBecomeIronMan"
       },
       {
-        "id": "ShanghaiDisneylandPark_attCampDiscovery",
-        "name": "Camp Discovery"
+        "name": "Buzz Lightyear Planet Rescue",
+        "id": "ShanghaiDisneylandPark_attBuzzLightyearPlanetRescue"
       },
       {
-        "id": "ShanghaiDisneylandPark_attChallengeTrails",
-        "name": "Challenge Trails at Camp Discovery"
+        "name": "Challenge Trails at Camp Discovery",
+        "id": "a7161ee0-90b5-42be-bc10-e2b8010fe7e7"
       },
       {
-        "id": "ShanghaiDisneylandPark_attDumboFlyingElephant",
-        "name": "Dumbo the Flying Elephant"
+        "name": "Dumbo the Flying Elephant",
+        "id": "ShanghaiDisneylandPark_attDumboFlyingElephant"
       },
       {
-        "id": "ShanghaiDisneylandPark_attExplorerCanoes",
-        "name": "Explorer Canoes"
+        "name": "Enchanted Storybook Castle",
+        "id": "aa30516c-c941-4439-8008-5be5a1dd98b5"
       },
       {
-        "id": "ShanghaiDisneylandPark_attFantasiaCarousel",
-        "name": "Fantasia Carousel"
+        "name": "Explorer Canoes",
+        "id": "ShanghaiDisneylandPark_attExplorerCanoes"
       },
       {
-        "id": "ShanghaiDisneylandPark_attHunnyPotSpin",
-        "name": "Hunny Pot Spin"
+        "name": "Fantasia Carousel",
+        "id": "ShanghaiDisneylandPark_attFantasiaCarousel"
       },
       {
-        "id": "ShanghaiDisneylandPark_attJetPacks",
-        "name": "Jet Packs"
+        "name": "Garden of the Twelve Friends",
+        "id": "57f7b25d-82df-4bfa-bac5-e5792c7ca533"
       },
       {
-        "id": "ShanghaiDisneylandPark_attMarvelUniverse",
-        "name": "Marvel Universe"
+        "name": "Happy Circle",
+        "id": "ShanghaiDisneylandPark_attJungleFriendsHappyCircle"
       },
       {
-        "id": "ShanghaiDisneylandPark_attPeterPansFlight",
-        "name": "Peter Pan’s Flight"
+        "name": "Hunny Pot Spin",
+        "id": "ShanghaiDisneylandPark_attHunnyPotSpin"
+      },
+      { "name": "Jet Packs", "id": "ShanghaiDisneylandPark_attJetPacks" },
+      {
+        "name": "Marvel Universe",
+        "id": "ShanghaiDisneylandPark_attMarvelUniverse"
       },
       {
-        "id": "ShanghaiDisneylandPark_attPiratesOfCaribbean",
-        "name": "Pirates of the Caribbean Battle for the Sunken Treasure"
+        "name": "Meet Mickey",
+        "id": "ShanghaiDisneylandPark_attMeetMickeyGardensImagination"
       },
       {
-        "id": "ShanghaiDisneylandPark_attRexsRCRacer",
-        "name": "Rex’s Racer"
+        "name": "Peter Pan’s Flight",
+        "id": "ShanghaiDisneylandPark_attPeterPansFlight"
       },
       {
-        "id": "ShanghaiDisneylandPark_attRoaringRapids",
-        "name": "Roaring Rapids"
+        "name": "Pirates of the Caribbean Battle for the Sunken Treasure",
+        "id": "ShanghaiDisneylandPark_attPiratesOfCaribbean"
+      },
+      { "name": "Rex’s Racer", "id": "ShanghaiDisneylandPark_attRexsRCRacer" },
+      {
+        "name": "Roaring Rapids",
+        "id": "ShanghaiDisneylandPark_attRoaringRapids"
       },
       {
-        "id": "ShanghaiDisneylandPark_attSevenDwarfsMineTrain",
-        "name": "Seven Dwarfs Mine Train"
+        "name": "Seven Dwarfs Mine Train",
+        "id": "ShanghaiDisneylandPark_attSevenDwarfsMineTrain"
       },
       {
-        "id": "ShanghaiDisneylandPark_attShipwreckShore",
-        "name": "Shipwreck Shore"
+        "name": "Shipwreck Shore",
+        "id": "ShanghaiDisneylandPark_attShipwreckShore"
       },
       {
-        "id": "ShanghaiDisneylandPark_attSirensRevenge",
-        "name": "Siren's Revenge"
+        "name": "Siren's Revenge",
+        "id": "ShanghaiDisneylandPark_attSirensRevenge"
       },
       {
-        "id": "ShanghaiDisneylandPark_attSlinkyDogSpin",
-        "name": "Slinky Dog Spin"
+        "name": "Slinky Dog Spin",
+        "id": "ShanghaiDisneylandPark_attSlinkyDogSpin"
       },
       {
-        "id": "ShanghaiDisneylandPark_attSoaringOverHorizon",
-        "name": "Soaring Over the Horizon"
+        "name": "Soaring Over the Horizon",
+        "id": "ShanghaiDisneylandPark_attSoaringOverHorizon"
       },
       {
-        "id": "ShanghaiDisneylandPark_attStitchEncounter",
-        "name": "Stitch Encounter"
+        "name": "Stitch Encounter",
+        "id": "ShanghaiDisneylandPark_attStitchEncounter"
       },
       {
-        "id": "ShanghaiDisneylandPark_attAdventuresWinniePooh",
-        "name": "The Many Adventures of Winnie the Pooh"
+        "name": "Storybook Court",
+        "id": "ShanghaiDisneylandPark_attDisneyPrincessesStorybookCourt"
       },
       {
-        "id": "ShanghaiDisneylandPark_attTronLightcyclePowerRun",
-        "name": "TRON Lightcycle Power Run – Presented by Chevrolet"
+        "name": "The Many Adventures of Winnie the Pooh",
+        "id": "ShanghaiDisneylandPark_attTheManyAdventuresOfWinnieThePooh"
       },
       {
-        "id": "ShanghaiDisneylandPark_attTronRealm",
-        "name": "TRON Realm, Chevrolet Digital Challenge"
+        "name": "TRON Lightcycle Power Run – Presented by Chevrolet",
+        "id": "ShanghaiDisneylandPark_attTronLightcyclePowerRun"
       },
       {
-        "id": "ShanghaiDisneylandPark_attVistaTrail",
-        "name": "Vista Trail at Camp Discovery"
+        "name": "TRON Realm, Chevrolet Digital Challenge",
+        "id": "ShanghaiDisneylandPark_attTronRealm"
       },
       {
-        "id": "ShanghaiDisneylandPark_attVoyageToCrystalGrotto",
-        "name": "Voyage to the Crystal Grotto"
+        "name": "Vista Trail at Camp Discovery",
+        "id": "9914dc09-741b-4df6-95e0-c260cfb6e998"
       },
       {
-        "id": "ShanghaiDisneylandPark_attWoodysRoundUp",
-        "name": "Woody’s Roundup"
+        "name": "Voyage to the Crystal Grotto",
+        "id": "ShanghaiDisneylandPark_attVoyageToCrystalGrotto"
+      },
+      {
+        "name": "Woody’s Roundup",
+        "id": "ShanghaiDisneylandPark_attWoodysRoundUp"
+      },
+      {
+        "name": "“Once Upon a Time” Adventure",
+        "id": "ShanghaiDisneylandPark_attOnceUponTimeAdventure"
       }
     ]
   },
@@ -1182,115 +1351,87 @@
     "name": "Magic Kingdom - Tokyo Disney",
     "timezone": "Asia/Tokyo",
     "rides": [
+      { "name": "Alice's Tea Party", "id": "TokyoDisneyland_173" },
       {
-        "id": "TokyoDisneyland_173",
-        "name": "Alice's Tea Party"
+        "name": "Beaver Brothers Explorer Canoes",
+        "id": "TokyoDisneyland_163"
+      },
+      { "name": "Big Thunder Mountain", "id": "TokyoDisneyland_160" },
+      {
+        "name": "Buzz Lightyear's Astro Blasters",
+        "id": "TokyoDisneyland_185"
+      },
+      { "name": "Castle Carrousel", "id": "TokyoDisneyland_170" },
+      { "name": "Chip 'n Dale's Treehouse", "id": "TokyoDisneyland_178" },
+      { "name": "Cinderella's Fairy Tale Hall", "id": "TokyoDisneyland_166" },
+      {
+        "name": "Club Mouse Beat",
+        "id": "8fdfb2fc-4b8a-446e-8529-71b01485c0a1"
+      },
+      { "name": "Country Bear Theater", "id": "TokyoDisneyland_158" },
+      {
+        "name": "Disney Harmony in Color",
+        "id": "1347a99e-0bd4-4c43-a03a-62eb2837d92d"
+      },
+      { "name": "Donald's Boat", "id": "TokyoDisneyland_180" },
+      { "name": "Dumbo The Flying Elephant", "id": "TokyoDisneyland_169" },
+      {
+        "name": "Enchanted Tale of Beauty and the Beast",
+        "id": "TokyoDisneyland_197"
+      },
+      { "name": "Gadget's Go Coaster", "id": "TokyoDisneyland_179" },
+      { "name": "Goofy's Paint 'n' Play House", "id": "TokyoDisneyland_181" },
+      { "name": "Haunted Mansion", "id": "TokyoDisneyland_171" },
+      { "name": "it's a small world", "id": "TokyoDisneyland_172" },
+      {
+        "name": "Jamboree Mickey! Let’s Dance!(Dance Program for Kids)",
+        "id": "42178d33-307e-486e-b47b-fa0dd6fe7d5d"
       },
       {
-        "id": "TokyoDisneyland_163",
-        "name": "Beaver Brothers Explorer Canoes"
+        "name": "Jungle Cruise: Wildlife Expeditions",
+        "id": "TokyoDisneyland_153"
       },
+      { "name": "Mark Twain Riverboat", "id": "TokyoDisneyland_159" },
       {
-        "id": "TokyoDisneyland_160",
-        "name": "Big Thunder Mountain"
+        "name": "Mickey's Magical Music World",
+        "id": "80ce7be5-50d1-4deb-b26d-abc44a0383fb"
       },
+      { "name": "Mickey's PhilharMagic", "id": "TokyoDisneyland_167" },
+      { "name": "Minnie's House", "id": "TokyoDisneyland_176" },
+      { "name": "Monsters, Inc. Ride & Go Seek!", "id": "TokyoDisneyland_189" },
+      { "name": "Omnibus", "id": "TokyoDisneyland_151" },
+      { "name": "Penny Arcade", "id": "TokyoDisneyland_191" },
+      { "name": "Peter Pan's Flight", "id": "TokyoDisneyland_164" },
+      { "name": "Pinocchio's Daring Journey", "id": "TokyoDisneyland_168" },
+      { "name": "Pirates of the Caribbean", "id": "TokyoDisneyland_152" },
+      { "name": "Pooh's Hunny Hunt", "id": "TokyoDisneyland_174" },
+      { "name": "Roger Rabbit's Car Toon Spin", "id": "TokyoDisneyland_175" },
       {
-        "id": "TokyoDisneyland_185",
-        "name": "Buzz Lightyear's Astro Blasters"
+        "name": "Sky Full of Colors  (Tokyo Disneyland)",
+        "id": "3160752b-69ae-432b-8e43-c48b8b9a2019"
       },
+      { "name": "Snow White's Adventures", "id": "TokyoDisneyland_165" },
+      { "name": "Space Mountain", "id": "TokyoDisneyland_184" },
+      { "name": "Splash Mountain", "id": "TokyoDisneyland_162" },
       {
-        "id": "TokyoDisneyland_170",
-        "name": "Castle Carrousel"
+        "name": "Star Tours: The Adventures Continue",
+        "id": "TokyoDisneyland_183"
       },
+      { "name": "Stitch Encounter", "id": "TokyoDisneyland_195" },
+      { "name": "Swiss Family Treehouse", "id": "TokyoDisneyland_155" },
       {
-        "id": "TokyoDisneyland_158",
-        "name": "Country Bear Theater"
+        "name": "The Enchanted Tiki Room: Stitch Presents “Aloha E Komo Mai!”",
+        "id": "TokyoDisneyland_156"
       },
+      { "name": "The Happy Ride with Baymax", "id": "TokyoDisneyland_196" },
       {
-        "id": "TokyoDisneyland_169",
-        "name": "Dumbo The Flying Elephant"
+        "name": "Tokyo Disneyland Electrical Parade Dreamlights",
+        "id": "764d8c54-70be-413c-9a9d-f6d69336684b"
       },
-      {
-        "id": "TokyoDisneyland_179",
-        "name": "Gadget's Go Coaster"
-      },
-      {
-        "id": "TokyoDisneyland_171",
-        "name": "Haunted Mansion"
-      },
-      {
-        "id": "TokyoDisneyland_172",
-        "name": "it's a small world"
-      },
-      {
-        "id": "TokyoDisneyland_153",
-        "name": "Jungle Cruise: Wildlife Expeditions"
-      },
-      {
-        "id": "TokyoDisneyland_159",
-        "name": "Mark Twain Riverboat"
-      },
-      {
-        "id": "TokyoDisneyland_167",
-        "name": "Mickey's PhilharMagic"
-      },
-      {
-        "id": "TokyoDisneyland_189",
-        "name": "Monsters Inc. Ride & Go Seek!"
-      },
-      { "id": "TokyoDisneyland_151", "name": "Omnibus" },
-      {
-        "id": "TokyoDisneyland_164",
-        "name": "Peter Pan's Flight"
-      },
-      {
-        "id": "TokyoDisneyland_168",
-        "name": "Pinocchio's Daring Journey"
-      },
-      {
-        "id": "TokyoDisneyland_152",
-        "name": "Pirates of the Caribbean"
-      },
-      {
-        "id": "TokyoDisneyland_174",
-        "name": "Pooh's Hunny Hunt"
-      },
-      {
-        "id": "TokyoDisneyland_175",
-        "name": "Roger Rabbit's Car Toon Spin"
-      },
-      {
-        "id": "TokyoDisneyland_165",
-        "name": "Snow White's Adventures"
-      },
-      {
-        "id": "TokyoDisneyland_184",
-        "name": "Space Mountain"
-      },
-      {
-        "id": "TokyoDisneyland_162",
-        "name": "Splash Mountain"
-      },
-      {
-        "id": "TokyoDisneyland_183",
-        "name": "Star Tours: The Adventures Continue"
-      },
-      {
-        "id": "TokyoDisneyland_195",
-        "name": "Stitch Encounter"
-      },
-      {
-        "id": "TokyoDisneyland_156",
-        "name": "The Enchanted Tiki Room: Stitch Presents Aloha E Komo Mai!"
-      },
-      {
-        "id": "TokyoDisneyland_161",
-        "name": "Tom Sawyer Island Rafts"
-      },
-      {
-        "id": "TokyoDisneyland_154",
-        "name": "Western River Railroad"
-      }
+      { "name": "Tom Sawyer Island Rafts", "id": "TokyoDisneyland_161" },
+      { "name": "Toon Park", "id": "TokyoDisneyland_194" },
+      { "name": "Western River Railroad", "id": "TokyoDisneyland_154" },
+      { "name": "Westernland Shootin' Gallery", "id": "TokyoDisneyland_157" }
     ]
   },
   {
@@ -1298,105 +1439,77 @@
     "name": "Disney Sea - Tokyo Disney",
     "timezone": "Asia/Tokyo",
     "rides": [
+      { "name": "20,000 Leagues Under the Sea", "id": "TokyoDisneySea_224" },
+      { "name": "Aquatopia", "id": "TokyoDisneySea_234" },
+      { "name": "Ariel's Playground", "id": "TokyoDisneySea_202" },
       {
-        "id": "TokyoDisneySea_224",
-        "name": "20,000 Leagues Under the Sea"
+        "name": "Believe! Sea of Dreams",
+        "id": "af936032-09bb-4b4f-996d-bedf400056b0"
       },
       {
-        "id": "TokyoDisneySea_232",
-        "name": "American Waterfront DisneySea Electric Railway"
+        "name": "Big Band Beat: A Special Treat",
+        "id": "b8ad205a-ffed-4bbc-a8b0-db79ec946898"
+      },
+      { "name": "Big City Vehicles", "id": "TokyoDisneySea_233" },
+      { "name": "Blowfish Balloon Race", "id": "TokyoDisneySea_240" },
+      { "name": "Caravan Carousel", "id": "TokyoDisneySea_236" },
+      {
+        "name": "DisneySea Electric Railway (American Waterfront)",
+        "id": "TokyoDisneySea_232"
       },
       {
-        "id": "TokyoDisneySea_228",
-        "name": "American Waterfront DisneySea Transit Steamer Line"
-      },
-      { "id": "TokyoDisneySea_234", "name": "Aquatopia" },
-      {
-        "id": "TokyoDisneySea_233",
-        "name": "Big City Vehicles"
+        "name": "DisneySea Electric Railway (Port Discovery)",
+        "id": "TokyoDisneySea_231"
       },
       {
-        "id": "TokyoDisneySea_240",
-        "name": "Blowfish Balloon Race"
+        "name": "DisneySea Transit Steamer Line (American Waterfront)",
+        "id": "TokyoDisneySea_228"
       },
       {
-        "id": "TokyoDisneySea_236",
-        "name": "Caravan Carousel"
+        "name": "DisneySea Transit Steamer Line (Lost River Delta)",
+        "id": "TokyoDisneySea_229"
       },
       {
-        "id": "TokyoDisneySea_237",
-        "name": "Flounder's Flying Fish Coaster"
+        "name": "DisneySea Transit Steamer Line (Mediterranean Harbor)",
+        "id": "TokyoDisneySea_227"
+      },
+      { "name": "Flounder's Flying Fish Coaster", "id": "TokyoDisneySea_237" },
+      { "name": "Fortress Explorations", "id": "TokyoDisneySea_244" },
+      {
+        "name": "Indiana Jones® Adventure: Temple of the Crystal Skull",
+        "id": "TokyoDisneySea_222"
       },
       {
-        "id": "TokyoDisneySea_222",
-        "name": "Indiana Jones® Adventure: Temple of the Crystal Skull"
+        "name": "Jamboree Mickey! Let’s Dance!(Dance Program for Kids)",
+        "id": "4bf7627c-7d36-4b50-9f72-169177a78bfa"
       },
+      { "name": "Jasmine's Flying Carpets", "id": "TokyoDisneySea_220" },
       {
-        "id": "TokyoDisneySea_220",
-        "name": "Jasmine's Flying Carpets"
+        "name": "Journey to the Center of the Earth",
+        "id": "TokyoDisneySea_223"
       },
+      { "name": "Jumpin' Jellyfish", "id": "TokyoDisneySea_239" },
       {
-        "id": "TokyoDisneySea_223",
-        "name": "Journey to the Center of the Earth"
+        "name": "Let’s Celebrate with Colors",
+        "id": "25f35450-af57-46ff-bdc0-2f0af38edc77"
       },
+      { "name": "Mermaid Lagoon Theater", "id": "TokyoDisneySea_221" },
+      { "name": "Nemo & Friends SeaRider", "id": "TokyoDisneySea_247" },
+      { "name": "Raging Spirits", "id": "TokyoDisneySea_242" },
+      { "name": "Scuttle's Scooters", "id": "TokyoDisneySea_238" },
+      { "name": "Sindbad's Storybook Voyage", "id": "TokyoDisneySea_235" },
       {
-        "id": "TokyoDisneySea_239",
-        "name": "Jumpin' Jellyfish"
+        "name": "Sky Full of Colors (Tokyo DisneySea)",
+        "id": "dba6f7f9-e031-4ae0-8926-cb063d42e391"
       },
-      {
-        "id": "TokyoDisneySea_229",
-        "name": "Lost River Delta DisneySea Transit Steamer Line"
-      },
-      {
-        "id": "TokyoDisneySea_227",
-        "name": "Mediterranean Harbor DisneySea Transit Steamer Line"
-      },
-      {
-        "id": "TokyoDisneySea_221",
-        "name": "Mermaid Lagoon Theater (King Triton's Concert)"
-      },
-      {
-        "id": "TokyoDisneySea_247",
-        "name": "Nemo & Friends SeaRider"
-      },
-      {
-        "id": "TokyoDisneySea_231",
-        "name": "Port Discovery DisneySea Electric Railway"
-      },
-      {
-        "id": "TokyoDisneySea_242",
-        "name": "Raging Spirits"
-      },
-      {
-        "id": "TokyoDisneySea_238",
-        "name": "Scuttle's Scooters"
-      },
-      {
-        "id": "TokyoDisneySea_235",
-        "name": "Sindbad's Storybook Voyage"
-      },
-      {
-        "id": "TokyoDisneySea_219",
-        "name": "Soaring: Fantastic Flight"
-      },
-      {
-        "id": "TokyoDisneySea_226",
-        "name": "The Magic Lamp Theater"
-      },
-      { "id": "TokyoDisneySea_241", "name": "The Whirlpool" },
-      {
-        "id": "TokyoDisneySea_243",
-        "name": "Tower of Terror"
-      },
-      {
-        "id": "TokyoDisneySea_218",
-        "name": "Toy Story Mania!"
-      },
-      { "id": "TokyoDisneySea_246", "name": "Turtle Talk" },
-      {
-        "id": "TokyoDisneySea_230",
-        "name": "Venetian Gondolas"
-      }
+      { "name": "Soaring: Fantastic Flight", "id": "TokyoDisneySea_219" },
+      { "name": "The Leonardo Challenge", "id": "TokyoDisneySea_245" },
+      { "name": "The Magic Lamp Theater", "id": "TokyoDisneySea_226" },
+      { "name": "The Whirlpool", "id": "TokyoDisneySea_241" },
+      { "name": "Tower of Terror", "id": "TokyoDisneySea_243" },
+      { "name": "Toy Story Mania!", "id": "TokyoDisneySea_218" },
+      { "name": "Turtle Talk", "id": "TokyoDisneySea_246" },
+      { "name": "Venetian Gondolas", "id": "TokyoDisneySea_230" }
     ]
   }
 ]

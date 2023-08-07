@@ -8,11 +8,16 @@ const exampleModule = {
       rides: [
         "Animation Academy",
         "Ant-Man and The Wasp: Nano Battle!",
+        "Art of Animation",
+        "Barrel of Fun",
         "Big Grizzly Mountain Runaway Mine Cars",
         "Cinderella Carousel",
+        "Duffy and Friends Play House",
         "Dumbo the Flying Elephant",
         "Fairy Tale Forest - presented by PANDORA",
-        "Hong Kong Disneyland Railroad – Main Street Station",
+        "Fantasy Gardens",
+        "Hong Kong Disneyland Railroad - Main Street Station",
+        "Hong Kong Disneyland Railroad – Fantasyland Station",
         "Hyperspace Mountain",
         "Iron Man Experience - Presented by AIA",
         "Iron Man Tech Showcase - Presented by Stark Industries",
@@ -20,16 +25,17 @@ const exampleModule = {
         "Jungle River Cruise",
         "Mad Hatter Tea Cups",
         "Main Street Vehicles",
-        "Mickey’s PhilharMagic",
+        "Mickey's PhilharMagic",
         "Mystic Manor",
         "Orbitron",
         "Rafts to Tarzan's Treehouse",
         "RC Racer",
         "Slinky Dog Spin",
-        "STAR WARS™: Command Post",
-        "Tarzan’s Treehouse",
+        "Tarzan's Treehouse",
         "The Many Adventures of Winnie the Pooh",
-        "Toy Soldier Parachute Drop"
+        "The Royal Reception Hall",
+        "Toy Soldier Parachute Drop",
+        "Wild West Photo Fun"
       ]
     }
   }

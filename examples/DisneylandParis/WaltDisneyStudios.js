@@ -6,16 +6,16 @@ const exampleModule = {
     park: {
       name: "Walt Disney Studios - Disneyland Paris",
       rides: [
+        "Avengers Assemble: Flight Force",
         "Cars Quatre Roues Rallye",
         "Cars ROAD TRIP",
         "Crush's Coaster",
-        "Disney Studio 1",
         "Les Tapis Volants - Flying Carpets Over Agrabah®",
         "Ratatouille: The Adventure",
         "RC Racer",
         "Slinky® Dog Zigzag Spin",
+        "Spider-Man W.E.B. Adventure",
         "The Twilight Zone Tower of Terror",
-        "Top secret - Under construction: The Avengers new headquarters",
         "Toy Soldiers Parachute Drop"
       ]
     }

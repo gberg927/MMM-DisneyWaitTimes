@@ -6,14 +6,11 @@ const exampleModule = {
     park: {
       name: "California Adventure - Disneyland",
       rides: [
-        "Animation Academy",
-        "Disney Junior Dance Party!",
-        "Frozen – Live at the Hyperion",
+        "Games of Pixar Pier",
         "Golden Zephyr",
         "Goofy's Sky School",
         "Grizzly River Run",
-        "Guardians of the Galaxy – Mission: BREAKOUT!",
-        "Heroic Encounter: Captain Marvel",
+        "Guardians of the Galaxy - Mission: BREAKOUT!",
         "Incredicoaster",
         "Inside Out Emotional Whirlwind",
         "Jessie's Critter Carousel",
@@ -21,20 +18,20 @@ const exampleModule = {
         "Luigi's Rollickin' Roadsters",
         "Mater's Junkyard Jamboree",
         "Mickey's PhilharMagic",
-        "Monsters Inc. Mike & Sulley to the Rescue!",
+        "Monsters, Inc. Mike & Sulley to the Rescue!",
+        "Pixar Pal-A-Round - Swinging",
         "Pixar Pal-A-Round – Non-Swinging",
-        "Pixar Pal-A-Round – Swinging",
         "Radiator Springs Racers",
-        "Red Car Trolley - Buena Vista Street",
+        "Red Car Trolley",
         "Redwood Creek Challenge Trail",
         "Silly Symphony Swings",
-        "Soarin' Over California",
+        "Soarin' Around the World",
         "Sorcerer's Workshop",
-        "The Little Mermaid ~ Ariel's Undersea Adventure",
+        "The Little Mermaid - Ariel's Undersea Adventure",
         "Toy Story Midway Mania!",
         "Turtle Talk with Crush",
         "Walt Disney Imagineering Blue Sky Cellar",
-        "World of Color"
+        "WEB SLINGERS: A Spider-Man Adventure"
       ]
     }
   }

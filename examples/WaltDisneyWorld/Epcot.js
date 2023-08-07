@@ -9,23 +9,21 @@ const exampleModule = {
         "Awesome Planet",
         "Beauty and the Beast Sing-Along",
         "Canada Far and Wide in Circle-Vision 360",
-        "Disney & Pixar Short Film Festival",
+        "Disney and Pixar Short Film Festival",
         "Frozen Ever After",
         "Gran Fiesta Tour Starring The Three Caballeros",
+        "Guardians of the Galaxy: Cosmic Rewind",
         "Impressions de France",
         "Journey Into Imagination With Figment",
         "Living with the Land",
-        "Meet Anna and Elsa at Royal Sommerhus",
-        "Mission: SPACE Green",
-        "Mission: SPACE Orange",
+        "Mission: SPACE",
         "Reflections of China",
         "Remy's Ratatouille Adventure",
-        "Soarin'",
+        "Soarin' Around the World",
         "Spaceship Earth",
         "Test Track",
-        "The American Adventure",
         "The Seas with Nemo & Friends",
-        "Turtle Talk with Crush"
+        "Turtle Talk With Crush"
       ]
     }
   }

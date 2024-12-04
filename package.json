@@ -6,7 +6,7 @@
   "author": "Dennis Glasberg",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.26.0",
+    "axios": "^1.6.0",
     "luxon": "^2.3.1",
     "socks": "^2.3.3"
   },

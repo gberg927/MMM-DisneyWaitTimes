@@ -26,7 +26,7 @@
         "id": "90d79335-c907-4069-a021-d0fe1ec73ae2"
       },
       {
-        "name": "Country Bear Jamboree",
+        "name": "Country Bear Musical Jamboree",
         "id": "WaltDisneyWorldMagicKingdom_80069748"
       },
       {
@@ -116,6 +116,10 @@
         "id": "WaltDisneyWorldMagicKingdom_80010213"
       },
       {
+        "name": "Tiana's Bayou Adventure",
+        "id": "73cb9445-0695-47a3-87ce-d08ae36b5f3c"
+      },
+      {
         "name": "Tom Sawyer Island",
         "id": "WaltDisneyWorldMagicKingdom_80010220"
       },
@@ -128,7 +132,7 @@
         "id": "WaltDisneyWorldMagicKingdom_80010224"
       },
       {
-        "name": "TRON Lightcycle / Run – New!",
+        "name": "TRON Lightcycle / Run",
         "id": "5a43d1a7-ad53-4d25-abfe-25625f0da304"
       },
       {
@@ -227,6 +231,10 @@
       {
         "name": "Journey Into Imagination With Figment",
         "id": "WaltDisneyWorldEpcot_80010152"
+      },
+      {
+        "name": "Journey of Water, Inspired by Moana",
+        "id": "dae68dee-dfba-4128-b594-6aa12add1070"
       },
       {
         "name": "Kidcot Fun Stops",
@@ -545,6 +553,10 @@
     "timezone": "America/Los_Angeles",
     "rides": [
       {
+        "name": "Adventureland Treehouse",
+        "id": "e27b1db8-9ec9-4f8b-9ca6-fd6377de66ee"
+      },
+      {
         "name": "Alice in Wonderland",
         "id": "DisneylandResortMagicKingdom_367495"
       },
@@ -728,6 +740,10 @@
       {
         "name": "The Many Adventures of Winnie the Pooh",
         "id": "DisneylandResortMagicKingdom_353449"
+      },
+      {
+        "name": "Tiana's Bayou Adventure",
+        "id": "a9076acd-7630-4bad-a8da-e6bd689ddcac"
       },
       {
         "name": "Walt Disney's Enchanted Tiki Room",

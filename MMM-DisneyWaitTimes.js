@@ -69,14 +69,19 @@ Module.register("MMM-DisneyWaitTimes", {
         var timeCell = document.createElement("td");
         timeCell.className = "bright title light time";
 
-        if (ride.status == "Closed") {
+        if (ride.status === "Closed") {
           timeCell.innerHTML = "closed";
-        } else if (ride.status == "Down") {
+        } else if (ride.status === "Down") {
           timeCell.innerHTML = "down";
-        } else if (ride.status == "Refurbishment") {
+        } else if (ride.status === "Refurbishment") {
           timeCell.innerHTML = "refurb";
-        } else {
+        } else if (ride.waitTime !== null) {
           timeCell.innerHTML = ride.waitTime;
+        } else if (
+          ride.boardingGroup.currentGroupStart !== null &&
+          ride.boardingGroup.currentGroupEnd
+        ) {
+          timeCell.innerHTML = `boarding: ${ride.boardingGroup.currentGroupStart} - ${ride.boardingGroup.currentGroupEnd}`;
         }
 
         row.appendChild(timeCell);

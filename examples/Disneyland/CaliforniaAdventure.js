@@ -30,7 +30,6 @@ const exampleModule = {
         "The Little Mermaid - Ariel's Undersea Adventure",
         "Toy Story Midway Mania!",
         "Turtle Talk with Crush",
-        "Walt Disney Imagineering Blue Sky Cellar",
         "WEB SLINGERS: A Spider-Man Adventure"
       ]
     }

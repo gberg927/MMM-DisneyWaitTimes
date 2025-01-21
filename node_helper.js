@@ -50,7 +50,13 @@ module.exports = NodeHelper.create({
         const result = {
           name: ride.name,
           status: waitTime?.status || null,
-          waitTime: waitTime?.waitTime || null
+          waitTime: waitTime?.waitTime || null,
+          boardingGroup: {
+            currentGroupStart:
+              waitTime?.meta?.boardingGroup?.currentGroupStart || null,
+            currentGroupEnd:
+              waitTime?.meta?.boardingGroup?.currentGroupEnd || null
+          }
         };
         results.push(result);
       }

@@ -15,6 +15,7 @@ const exampleModule = {
         "Guardians of the Galaxy: Cosmic Rewind",
         "Impressions de France",
         "Journey Into Imagination With Figment",
+        "Journey of Water, Inspired by Moana",
         "Living with the Land",
         "Mission: SPACE",
         "Reflections of China",

@@ -6,13 +6,13 @@ const exampleModule = {
     park: {
       name: "Magic Kingdom - Disneyland",
       rides: [
+        "Adventureland Treehouse",
         "Alice in Wonderland",
         "Astro Orbitor",
         "Autopia",
         "Big Thunder Mountain Railroad",
         "Buzz Lightyear Astro Blasters",
         "Casey Jr. Circus Train",
-        "Chip 'n Dale Treehouse",
         "Chip 'n' Dale's GADGETcoaster",
         "Davy Crockett's Explorer Canoes",
         "Disneyland Monorail",
@@ -41,12 +41,11 @@ const exampleModule = {
         "Snow White's Enchanted Wish",
         "Space Mountain",
         "Star Tours - The Adventures Continue",
-        "Star Wars Launch Bay",
         "Star Wars: Rise of the Resistance",
         "Storybook Land Canal Boats",
-        "Tarzan's Treehouse™",
         "The Disneyland Story presenting Great Moments with Mr. Lincoln",
         "The Many Adventures of Winnie the Pooh",
+        "Tiana's Bayou Adventure",
         "Walt Disney's Enchanted Tiki Room"
       ]
     }

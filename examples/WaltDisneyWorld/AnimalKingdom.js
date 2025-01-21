@@ -12,8 +12,7 @@ const exampleModule = {
         "It's Tough to be a Bug!",
         "Kali River Rapids",
         "Kilimanjaro Safaris",
-        "Na'vi River Journey",
-        "TriceraTop Spin"
+        "Na'vi River Journey"
       ]
     }
   }
